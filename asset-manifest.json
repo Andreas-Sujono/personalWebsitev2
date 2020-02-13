@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personalWebsitev2/static/css/main.8759825e.chunk.css",
+    "main.js": "/personalWebsitev2/static/js/main.0b6ac5f9.chunk.js",
+    "main.js.map": "/personalWebsitev2/static/js/main.0b6ac5f9.chunk.js.map",
+    "runtime-main.js": "/personalWebsitev2/static/js/runtime-main.3ae0835a.js",
+    "runtime-main.js.map": "/personalWebsitev2/static/js/runtime-main.3ae0835a.js.map",
+    "static/js/2.a04f9c06.chunk.js": "/personalWebsitev2/static/js/2.a04f9c06.chunk.js",
+    "static/js/2.a04f9c06.chunk.js.map": "/personalWebsitev2/static/js/2.a04f9c06.chunk.js.map",
+    "index.html": "/personalWebsitev2/index.html",
+    "precache-manifest.03e72b392e59078e151f63781b28a2fd.js": "/personalWebsitev2/precache-manifest.03e72b392e59078e151f63781b28a2fd.js",
+    "service-worker.js": "/personalWebsitev2/service-worker.js",
+    "static/css/main.8759825e.chunk.css.map": "/personalWebsitev2/static/css/main.8759825e.chunk.css.map",
+    "static/js/2.a04f9c06.chunk.js.LICENSE": "/personalWebsitev2/static/js/2.a04f9c06.chunk.js.LICENSE",
+    "static/media/Andreas.jpg": "/personalWebsitev2/static/media/Andreas.4194e57a.jpg",
+    "static/media/Logo.png": "/personalWebsitev2/static/media/Logo.b238f2e3.png",
+    "static/media/MLDev.png": "/personalWebsitev2/static/media/MLDev.df87bc46.png",
+    "static/media/electroDev.png": "/personalWebsitev2/static/media/electroDev.e6496a9a.png",
+    "static/media/footerDivider.png": "/personalWebsitev2/static/media/footerDivider.0e9b2182.png",
+    "static/media/github.png": "/personalWebsitev2/static/media/github.3e54ed15.png",
+    "static/media/webDev.png": "/personalWebsitev2/static/media/webDev.71ede554.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ae0835a.js",
+    "static/js/2.a04f9c06.chunk.js",
+    "static/css/main.8759825e.chunk.css",
+    "static/js/main.0b6ac5f9.chunk.js"
+  ]
+}
