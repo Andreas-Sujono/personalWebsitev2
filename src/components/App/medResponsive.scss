@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+    #firstPage{
+        .firstPageContent{
+            .title{
+                h2{
+                    font-size: 28px;
+                }
+                h3{
+                    font-size: 22px;
+                }
+
+            }
+        }
+    }
+
+    .topNav{
+        >ul{left: -40px; transform: translate(0,0);}
+        >ul li {font-size: 15px;}
+    }
+    .about{
+        >h2{
+            font-size: 32px;
+        }
+        .leftContent{width: 80%;}
+        .rightContent{
+            .skillIndividual{
+                .skillTitle{
+                    width: 70px;
+                    font-size: 12px;
+                    padding: 3px;
+                }
+                .skillProficiency{
+                    font-size: 12px;
+                    padding: 3px;
+                }
+            }
+        }
+
+        .skillImage{
+            h4{font-size: 20px;}
+        }
+    }
+
+    .projects{
+        >h2{
+            font-size: 32px;
+        }
+    }
+    .gallery{
+        >h2{
+            font-size: 32px;
+        }
+    }
+    .middleContent .text{font-size: 24px;}
+    
+    .gallery{
+        .content{
+            width: 80%;
+        }
+    }
+
+    .card2{
+        img{
+            width: 200px;
+            height:200px;
+        }
+    }
+}
+
+
+@media screen and (max-width:650px){
+    .about{
+        .rightContent{
+            .skillIndividual{
+                .progress{width: 50%;}
+
+            }
+        }
+    }
+}

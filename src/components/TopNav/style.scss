@@ -1,0 +1,35 @@
+.topNav{
+    color:white;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(61, 66, 78);
+    margin:0;
+    padding:0;
+    position: sticky;
+    top:0;
+    z-index: 20;
+
+
+    >ul{
+        padding-top: 20px;
+        position: absolute;
+        left:50%;
+        transform: translate(-50%,0);
+        li{
+            list-style-type: none;
+            display: inline;
+            padding-left: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+        }
+
+        li a{
+            color: white;
+            cursor: pointer;
+        }
+        li a:hover{
+            text-decoration: none;
+        }
+    }
+
+}

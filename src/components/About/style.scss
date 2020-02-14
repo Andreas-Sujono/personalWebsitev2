@@ -1,0 +1,94 @@
+.about{
+    min-height:600px;
+    padding: 50px 0 100px 0;
+
+    >h2{
+        margin-top: 30px;
+        text-align: center;
+        font-size:42px;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    hr{
+        width: 200px;
+        border: 2px double grey;
+        margin-bottom: 80px;
+    }
+
+    .row{margin:0;padding:0;}
+    .leftContent{
+        text-align: center;
+        margin:auto;
+        img{
+            width: 250px;
+        }
+        h4{
+            margin-top: 10px;
+            color: black;
+        }
+        .aboutMeContent{color:grey;padding-bottom: 40px;}
+    }
+
+    .rightContent{
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        >h4{
+            font-size: 28px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .skillIndividual{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            .skillTitle{
+                float: left; 
+                width: 100px;
+                min-height: 20px;
+                background-color: rgba(65, 199, 204, 0.8);
+                color:white;
+                text-align: center;
+            }
+            .progress{
+                width: 60%; 
+                float: left;
+                background-color: lightgrey;
+                height: 24px;
+                padding:0;
+                border-radius: 0;
+                .progress-bar{
+                    background-color: rgba(5,161,167,1);                    
+                }
+            }
+            .skillProficiency{
+                background-color: grey;
+                text-align: center;
+                color:white;
+                font-size: 15px;
+                padding:1px;
+            }
+            
+        }
+    }
+
+    .skillImage{
+        margin: auto;
+        margin-top: 50px;
+        img{
+            display: block;
+            margin:auto;
+            max-width: 200px;
+            margin-top: 30px;
+        }
+
+        .skillImageIndividual >div, h4{
+            text-align: center;
+            color: grey;
+            margin-top: 10px;
+        }
+        h4{font-weight: bold;}
+    }
+    
+}
