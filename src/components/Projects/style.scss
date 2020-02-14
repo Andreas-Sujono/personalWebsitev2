@@ -20,4 +20,16 @@
         width: 80%;
         margin:auto;
     }
+    .projectsRow{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        .projectsColumn{
+            flex: 25%;
+            padding: 0 4px;
+            max-width: 33%;
+        }
+    }
+    
 }

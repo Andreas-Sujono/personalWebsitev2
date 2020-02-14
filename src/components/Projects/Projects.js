@@ -10,7 +10,7 @@ class Projects extends Component {
                 <h2>Projects</h2>
                 <hr/>
 
-                <div className="content row">
+                <div className="content projectsRow">
                     {
                         projectsData.map( (item,idx) => (
                             <Card image={item.image} alt={item.alt} />

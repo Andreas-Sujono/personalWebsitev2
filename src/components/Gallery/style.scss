@@ -21,11 +21,11 @@
     .galleryRow{
         display: flex;
         flex-wrap: wrap;
-         padding: 0 4px;
-         .galleryColumn{
+        padding: 0 4px;
+        .galleryColumn{
             flex: 33%;
             padding: 0 4px;
             max-width: 33%;
-         }
+        }
     }
 }

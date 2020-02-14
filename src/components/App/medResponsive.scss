@@ -45,6 +45,7 @@
         >h2{
             font-size: 32px;
         }
+        .projectsRow{width: 80%;}
     }
     .gallery{
         >h2{
@@ -55,14 +56,12 @@
     
     .gallery{
         .content{
-            width: 80%;
+            width: 90%;
         }
-    }
-
-    
+    }   
 }
 
-
+//for smaller device
 @media screen and (max-width:650px){
     .about{
         .rightContent{
@@ -77,5 +76,8 @@
             width: 200px;
             height:200px;
         }
+    }
+    .projects{
+        .projectsRow{width: 100%;}
     }
 }
