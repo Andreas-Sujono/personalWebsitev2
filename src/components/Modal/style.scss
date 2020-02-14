@@ -1,0 +1,43 @@
+
+.andreModal{
+	width:80%;
+	max-width: 500px;
+	min-height: 400px;
+	background-color: white;
+	z-index: 20;
+
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-60%);
+	padding:0;
+
+	border:1px solid maroon;
+
+	>img{
+		width: 100%;
+		margin:0;
+	}
+	>h2{
+		text-align: center;
+		padding-top: 20px;
+	}
+	>hr{
+		width: 200px;
+		border:2px solid grey;
+	}
+	>.description{
+		padding:10px;
+		color: black;
+		height: 100px;
+	}
+
+	.closeModal{
+		position: absolute;
+		top:0;
+		right:10px;
+		font-size: 40px;
+		color:red;
+		cursor: pointer;
+	}
+}

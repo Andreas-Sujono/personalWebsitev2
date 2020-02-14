@@ -9,28 +9,32 @@ const projectsData = [
         image:projects_idealist,
         alt:'Website Idealist',
         title:'Idealist',
+        techStack:"ReactJs",
         description:'Idealist is a news platform',
         otherImage : []
     },
     {
         image:projects_skinTech,
-        alt:'',
-        title:'Idealist',
-        description:'Idealist is a news platform',
+        alt:'SkinTech website',
+        title:'SkinTech',
+        techStack:"Django + Tensorflow",
+        description:'SkinTech is skin cancer detector',
         otherImage : []
     },
     {
         image:Projects_pytorch,
-        alt:'Website Idealist',
-        title:'Idealist',
-        description:'Idealist is a news platform',
+        alt:'deep learning research',
+        title:'Deep Learning Research',
+        techStack:"Pytorch, Deep learning",
+        description:'Research Projects: Image Blending',
         otherImage : []
     },
     {
         image:projects_togo,
-        alt:'Website Idealist',
-        title:'Idealist',
-        description:'Idealist is a news platform',
+        alt:'ToGo mobile app',
+        title:'ToGo',
+        techStack:"ReactNative",
+        description:'ToGo is a travel mobile app',
         otherImage : []
     }
 ]
