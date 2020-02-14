@@ -96,6 +96,36 @@ const galleryData = [
         description:'...',
         otherImage : []
     },
+    {
+        image:gallery_NUS,
+        alt:'gallery_NUS',
+        title:'',
+        description:'...',
+        otherImage : []
+    },
+    {
+        image:gallery_purpleParade,
+        alt:'gallery_purpleParade',
+        title:'',
+        description:'...',
+        otherImage : []
+    },
+    {
+        image:gallery_TEDX,
+        alt:'gallery_TEDX',
+        title:'',
+        description:'...',
+        otherImage : []
+    },
+    {
+        image:gallery_trail,
+        alt:'gallery_trail',
+        title:'',
+        description:'...',
+        otherImage : []
+    },
+
+
 
     
 ]

@@ -15,7 +15,7 @@
         margin-bottom: 80px;
     }
     .content{
-        width: 50%;
+        width: 70%;
         margin:auto;
     }
     .galleryRow{
@@ -23,8 +23,9 @@
         flex-wrap: wrap;
          padding: 0 4px;
          .galleryColumn{
-            flex: 50%;
+            flex: 33%;
             padding: 0 4px;
+            max-width: 33%;
          }
     }
 }

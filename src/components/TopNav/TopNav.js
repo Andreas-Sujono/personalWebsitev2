@@ -22,7 +22,7 @@ class TopNav extends Component{
                             <li className="collapseIndividual"> 
                                 {
                                 <Link
-                                    activeClass="active"
+                                    activeClass="navActive"
                                     to={item.link}
                                     spy={true}
                                     smooth={true}

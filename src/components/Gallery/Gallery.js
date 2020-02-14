@@ -5,7 +5,7 @@ import galleryData from './utils'
 
 class Gallery extends Component {
     render() {
-        const column = [1,2], length = galleryData.length, columnLength = column.length
+        const column = [1,2,3], length = galleryData.length, columnLength = column.length
         return (
             <div className="gallery" id='gallery'>
                 <h2>Gallery</h2>
