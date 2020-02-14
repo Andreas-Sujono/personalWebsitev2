@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ebc2647d9de8b8ca12dcfe8d0d5d698",
+    "revision": "25118cbf0abb0b7fc2e4481aed31b4e5",
     "url": "/personalWebsitev2/index.html"
   },
   {
-    "revision": "3eca58e0140e79980c81",
-    "url": "/personalWebsitev2/static/css/main.b5337369.chunk.css"
+    "revision": "e89d29d6b160dd286980",
+    "url": "/personalWebsitev2/static/css/main.a84d79f7.chunk.css"
   },
   {
     "revision": "d4dadef06f4ce54f169b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalWebsitev2/static/js/2.5edaa8bd.chunk.js.LICENSE"
   },
   {
-    "revision": "3eca58e0140e79980c81",
-    "url": "/personalWebsitev2/static/js/main.b9809225.chunk.js"
+    "revision": "e89d29d6b160dd286980",
+    "url": "/personalWebsitev2/static/js/main.8dedfca0.chunk.js"
   },
   {
     "revision": "59923699d52be1e0aaed",
@@ -116,20 +116,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalWebsitev2/static/media/github.3e54ed15.png"
   },
   {
-    "revision": "f1283094e13a34da72523f4b7ae27a0b",
-    "url": "/personalWebsitev2/static/media/projects_idealist.f1283094.png"
+    "revision": "f895633a6a1eec27192f7d9d6a91a866",
+    "url": "/personalWebsitev2/static/media/projects_idealist.f895633a.png"
   },
   {
-    "revision": "f006806312dbf953a01945bc57c25740",
-    "url": "/personalWebsitev2/static/media/projects_pytorch.f0068063.png"
+    "revision": "8ea029251ef38442b7c874909bdcc8ea",
+    "url": "/personalWebsitev2/static/media/projects_pytorch.8ea02925.png"
   },
   {
-    "revision": "b4e77086c88dd0191bcee674c4675ae9",
-    "url": "/personalWebsitev2/static/media/projects_skinTech.b4e77086.png"
+    "revision": "35e0e520d156f87ce4ced941de465327",
+    "url": "/personalWebsitev2/static/media/projects_skinTech.35e0e520.png"
   },
   {
-    "revision": "98690722bc1ec5ba41d07f2dc51b69b6",
-    "url": "/personalWebsitev2/static/media/projects_togo.98690722.png"
+    "revision": "56b20eb86977b61045d41f4c109bc2b6",
+    "url": "/personalWebsitev2/static/media/projects_togo.56b20eb8.png"
   },
   {
     "revision": "71ede554b8fece541ac7a240c465ce01",
