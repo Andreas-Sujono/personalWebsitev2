@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d67220c7e941d96aa4ed6dae87b2465",
+    "revision": "51aa84fc1cd98c4b8fd7f8d04051bada",
     "url": "/personalWebsitev2/index.html"
   },
   {
-    "revision": "b7453827b86da5d35940",
-    "url": "/personalWebsitev2/static/css/main.98789aab.chunk.css"
+    "revision": "be84b77a527300f5d5d9",
+    "url": "/personalWebsitev2/static/css/main.e83e9601.chunk.css"
   },
   {
-    "revision": "e29dabdb6977660fc406",
-    "url": "/personalWebsitev2/static/js/2.4440a967.chunk.js"
+    "revision": "703734d81d01612d50dc",
+    "url": "/personalWebsitev2/static/js/2.3a88d3b4.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/personalWebsitev2/static/js/2.4440a967.chunk.js.LICENSE"
+    "url": "/personalWebsitev2/static/js/2.3a88d3b4.chunk.js.LICENSE"
   },
   {
-    "revision": "b7453827b86da5d35940",
-    "url": "/personalWebsitev2/static/js/main.8af8f6ab.chunk.js"
+    "revision": "be84b77a527300f5d5d9",
+    "url": "/personalWebsitev2/static/js/main.76a69a3c.chunk.js"
   },
   {
     "revision": "59923699d52be1e0aaed",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalWebsitev2/static/media/Andreas.4194e57a.jpg"
   },
   {
-    "revision": "8eb819bf50dcf3a7ccd69332c4d072d9",
-    "url": "/personalWebsitev2/static/media/Andreas_Resume.8eb819bf.pdf"
+    "revision": "387e36dac4eb78887aac9dc452fcaa13",
+    "url": "/personalWebsitev2/static/media/Andreas_Resume.387e36da.pdf"
   },
   {
     "revision": "b238f2e3b15cec021d4266b7c1da2ebb",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalWebsitev2/static/media/projects_idealist.f895633a.png"
   },
   {
-    "revision": "8ea029251ef38442b7c874909bdcc8ea",
-    "url": "/personalWebsitev2/static/media/projects_pytorch.8ea02925.png"
+    "revision": "38fe8ca3a7e6f15f660780026729b42b",
+    "url": "/personalWebsitev2/static/media/projects_pytorch.38fe8ca3.png"
   },
   {
     "revision": "35e0e520d156f87ce4ced941de465327",
