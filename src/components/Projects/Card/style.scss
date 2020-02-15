@@ -44,11 +44,10 @@
             color: white;
         }
     }
+    .imageDesc:hover{
+        opacity: 100%;
+    }
+    
     margin-top: 10px;
 }
 
-.card2:hover{
-    .imageDesc{
-        opacity: 100%;
-    }
-}
