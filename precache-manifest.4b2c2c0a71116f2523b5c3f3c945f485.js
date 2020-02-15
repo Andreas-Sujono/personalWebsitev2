@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51aa84fc1cd98c4b8fd7f8d04051bada",
+    "revision": "c6359fc098b5970001b84e822574173d",
     "url": "/personalWebsitev2/index.html"
   },
   {
-    "revision": "be84b77a527300f5d5d9",
-    "url": "/personalWebsitev2/static/css/main.e83e9601.chunk.css"
+    "revision": "8bd5f6864632a382c2f8",
+    "url": "/personalWebsitev2/static/css/main.ca9f5f5a.chunk.css"
   },
   {
-    "revision": "703734d81d01612d50dc",
-    "url": "/personalWebsitev2/static/js/2.3a88d3b4.chunk.js"
+    "revision": "f86205b0fa538388f6de",
+    "url": "/personalWebsitev2/static/js/2.b122e8a4.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/personalWebsitev2/static/js/2.3a88d3b4.chunk.js.LICENSE"
+    "url": "/personalWebsitev2/static/js/2.b122e8a4.chunk.js.LICENSE"
   },
   {
-    "revision": "be84b77a527300f5d5d9",
-    "url": "/personalWebsitev2/static/js/main.76a69a3c.chunk.js"
+    "revision": "8bd5f6864632a382c2f8",
+    "url": "/personalWebsitev2/static/js/main.2cb35799.chunk.js"
   },
   {
     "revision": "59923699d52be1e0aaed",
@@ -116,12 +116,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personalWebsitev2/static/media/github.3e54ed15.png"
   },
   {
+    "revision": "044ed1c6b54ecdcf5aaed06638cb4d05",
+    "url": "/personalWebsitev2/static/media/projects_drumMachine.044ed1c6.png"
+  },
+  {
     "revision": "f895633a6a1eec27192f7d9d6a91a866",
     "url": "/personalWebsitev2/static/media/projects_idealist.f895633a.png"
   },
   {
+    "revision": "3163f40824d4b9d93b4a25abda15e214",
+    "url": "/personalWebsitev2/static/media/projects_markdownPreviewer.3163f408.png"
+  },
+  {
+    "revision": "6eda42319830dcc20ae6fe14779f1db3",
+    "url": "/personalWebsitev2/static/media/projects_memeGenerator.6eda4231.png"
+  },
+  {
+    "revision": "79e47511e4e1ec0dfc15facdbe8e7587",
+    "url": "/personalWebsitev2/static/media/projects_myblog.79e47511.png"
+  },
+  {
+    "revision": "436965cd39fd79970f8453cd3cbe3872",
+    "url": "/personalWebsitev2/static/media/projects_pomodoroClock.436965cd.png"
+  },
+  {
     "revision": "38fe8ca3a7e6f15f660780026729b42b",
     "url": "/personalWebsitev2/static/media/projects_pytorch.38fe8ca3.png"
+  },
+  {
+    "revision": "56e2889209d06969f3d7358868cc8a43",
+    "url": "/personalWebsitev2/static/media/projects_quoteGenerator.56e28892.png"
+  },
+  {
+    "revision": "6a2bfac6834de20085b2230922fe3138",
+    "url": "/personalWebsitev2/static/media/projects_reduxtagram.6a2bfac6.png"
   },
   {
     "revision": "35e0e520d156f87ce4ced941de465327",
