@@ -9,6 +9,7 @@ import projects_memeGenerator from 'assets/projects_memeGenerator.png'
 import projects_pomodoroClock from 'assets/projects_pomodoroClock.png'
 import projects_reduxtagram from 'assets/projects_reduxtagram.png'
 import projects_quoteGenerator from 'assets/projects_quoteGenerator.png'
+import projects_capture from 'assets/projects_capture.png'
 
 
 const projectsData = [
@@ -61,6 +62,14 @@ const projectsData = [
         title:'Reduxtagram',
         techStack:"React + Redux",
         description:'Reduxtagram',
+        otherImage : []
+    },
+    {
+        image:projects_capture,
+        alt:'projects_capture',
+        title:'Capture',
+        techStack:"React + Firebase",
+        description:'Capture is an ecommerce website',
         otherImage : []
     },
     {

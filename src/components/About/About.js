@@ -40,10 +40,12 @@ class About extends Component {
                         </Fade>
                     </div>
                     <div className="rightContent col-lg-7 col-10">
+                        <Fade left>
                         <h4>Skills</h4>
                         {
                             skill.map( (item,idx) => (
                                 <div className="skillIndividual" key={`${item.name}_${idx}`}>
+                                    
                                     <div className="skillTitle">{item.name}</div>
                                     <div className="progress">
                                         <div 
@@ -58,9 +60,11 @@ class About extends Component {
                                         />
                                     </div>
                                     <div className="skillProficiency">{item.proficiency}</div>
+                                    
                                 </div>
                             ))
                         }
+                        </Fade>
                     </div>
                 </div>
 
