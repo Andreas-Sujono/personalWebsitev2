@@ -23,21 +23,6 @@ class Projects extends Component {
         this.setState({data:data})
     }
 
-    componentDidMount() {
-        document.addEventListener('mousedown', this.handleClickOutside);
-      }
-    
-    componentWillUnmount() {
-        document.removeEventListener('mousedown', this.handleClickOutside);
-    }
-    
-
-    handleClickOutside = (event) => {
-        if (this.refs.modal && !this.refs.modal.contains(event.target)) {
-            this.closeModal()
-        }
-    }
-
     render() {
         return (
             <div className="projects" id="projects">
@@ -61,7 +46,7 @@ class Projects extends Component {
                     }
                 </div>
                 
-                <div class="modalContainer" ref="modal">
+                <div class="modalContainer">
                     {this.state.modal && 
                         <Modal 
                             {...this.state.data}

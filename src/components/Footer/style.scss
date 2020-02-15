@@ -32,7 +32,7 @@
     }
     h2{
         font-family: 'Courier New', Courier, monospace;
-        font-size: 20px;
+        font-size: 22px;
     }
     .section1,.section2,.section3{
         margin: auto;
@@ -45,5 +45,24 @@
         height: 50px;
 
         i{color:red;}
+    }
+
+    .footerForm{
+        width:300px;
+        input{
+            width: 80%;
+        }
+
+        textarea{
+            width: 350px;
+            height: 100px;
+        }
+
+        .statusMessage{
+            padding:6px;
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
     }
 }

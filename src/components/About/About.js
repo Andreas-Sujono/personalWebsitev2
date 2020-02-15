@@ -48,7 +48,9 @@ class About extends Component {
                                     <div className="progress">
                                         <div 
                                             className="progress-bar progress-bar-animated" 
-                                            style={{width:`${item.value}% `}}
+                                            style={{
+                                                width:`${item.value}% `
+                                            }}
                                             role="progressbar" 
                                             aria-valuenow={item.value} 
                                             aria-valuemin="0" 
