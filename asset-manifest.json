@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personalWebsitev2/static/css/main.ca9f5f5a.chunk.css",
-    "main.js": "/personalWebsitev2/static/js/main.2cb35799.chunk.js",
-    "main.js.map": "/personalWebsitev2/static/js/main.2cb35799.chunk.js.map",
+    "main.css": "/personalWebsitev2/static/css/main.f1f84240.chunk.css",
+    "main.js": "/personalWebsitev2/static/js/main.0bb6c4f9.chunk.js",
+    "main.js.map": "/personalWebsitev2/static/js/main.0bb6c4f9.chunk.js.map",
     "runtime-main.js": "/personalWebsitev2/static/js/runtime-main.3ae0835a.js",
     "runtime-main.js.map": "/personalWebsitev2/static/js/runtime-main.3ae0835a.js.map",
-    "static/js/2.b122e8a4.chunk.js": "/personalWebsitev2/static/js/2.b122e8a4.chunk.js",
-    "static/js/2.b122e8a4.chunk.js.map": "/personalWebsitev2/static/js/2.b122e8a4.chunk.js.map",
+    "static/js/2.5154c919.chunk.js": "/personalWebsitev2/static/js/2.5154c919.chunk.js",
+    "static/js/2.5154c919.chunk.js.map": "/personalWebsitev2/static/js/2.5154c919.chunk.js.map",
     "index.html": "/personalWebsitev2/index.html",
-    "precache-manifest.4b2c2c0a71116f2523b5c3f3c945f485.js": "/personalWebsitev2/precache-manifest.4b2c2c0a71116f2523b5c3f3c945f485.js",
+    "precache-manifest.ec6bd07b9b7e5518fbce5a8eec555801.js": "/personalWebsitev2/precache-manifest.ec6bd07b9b7e5518fbce5a8eec555801.js",
     "service-worker.js": "/personalWebsitev2/service-worker.js",
-    "static/css/main.ca9f5f5a.chunk.css.map": "/personalWebsitev2/static/css/main.ca9f5f5a.chunk.css.map",
-    "static/js/2.b122e8a4.chunk.js.LICENSE": "/personalWebsitev2/static/js/2.b122e8a4.chunk.js.LICENSE",
+    "static/css/main.f1f84240.chunk.css.map": "/personalWebsitev2/static/css/main.f1f84240.chunk.css.map",
+    "static/js/2.5154c919.chunk.js.LICENSE": "/personalWebsitev2/static/js/2.5154c919.chunk.js.LICENSE",
     "static/media/Andreas.jpg": "/personalWebsitev2/static/media/Andreas.4194e57a.jpg",
     "static/media/Andreas_Resume.pdf": "/personalWebsitev2/static/media/Andreas_Resume.387e36da.pdf",
     "static/media/Logo.png": "/personalWebsitev2/static/media/Logo.b238f2e3.png",
@@ -35,6 +35,7 @@
     "static/media/gallery_purpleParade.jpg": "/personalWebsitev2/static/media/gallery_purpleParade.159c2345.jpg",
     "static/media/gallery_trail.jpg": "/personalWebsitev2/static/media/gallery_trail.b06b29f5.jpg",
     "static/media/github.png": "/personalWebsitev2/static/media/github.3e54ed15.png",
+    "static/media/projects_capture.png": "/personalWebsitev2/static/media/projects_capture.be59c7c7.png",
     "static/media/projects_drumMachine.png": "/personalWebsitev2/static/media/projects_drumMachine.044ed1c6.png",
     "static/media/projects_idealist.png": "/personalWebsitev2/static/media/projects_idealist.f895633a.png",
     "static/media/projects_markdownPreviewer.png": "/personalWebsitev2/static/media/projects_markdownPreviewer.3163f408.png",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3ae0835a.js",
-    "static/js/2.b122e8a4.chunk.js",
-    "static/css/main.ca9f5f5a.chunk.css",
-    "static/js/main.2cb35799.chunk.js"
+    "static/js/2.5154c919.chunk.js",
+    "static/css/main.f1f84240.chunk.css",
+    "static/js/main.0bb6c4f9.chunk.js"
   ]
 }
