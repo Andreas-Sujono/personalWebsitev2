@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './style.scss'
 
+
 class Modal extends Component {
     render() {
         const {image, title, description,closeModal} = this.props
         return (
             <div className="andreModal">
+                
                 <img src={image}/>
                 <h2>{title}</h2>
                 <hr/>
@@ -15,6 +17,7 @@ class Modal extends Component {
                 <div className="closeModal" onClick={()=>closeModal()}>
                     &times;
                 </div>
+                
             </div>
         );
     }

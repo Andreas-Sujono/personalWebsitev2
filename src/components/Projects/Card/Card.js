@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'components/Modal'
 import './style.scss'
+import Zoom from 'react-reveal/Zoom';
 
 class Card extends Component {
 
@@ -8,7 +9,9 @@ class Card extends Component {
         const {image,alt,title,description,techStack,changeModalData,setModal} = this.props
         return (
             <div className="card2">
+                <Zoom>
                 <img src={image} alt={alt}/>
+                </Zoom>
                 <div className="imageDesc">
                      <h4>{title}</h4>
                     <div className="tectStack">{techStack}</div>
@@ -24,6 +27,7 @@ class Card extends Component {
                     }}>Learn More</div>
                     
                 </div>
+                
             </div>
         );
     }

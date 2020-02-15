@@ -13,10 +13,10 @@
         background-color: white;
         vertical-align: middle;  
     }
-    .imageDesc{
+    >.imageDesc{
         width:350px;
         height: 100%;
-        opacity: 0;
+        opacity: 0.01;
         overflow: hidden;
         position: absolute;
         top:0;
@@ -44,8 +44,8 @@
             color: white;
         }
     }
-    .imageDesc:hover{
-        opacity: 100%;
+    >.imageDesc:hover{
+        opacity: 1;
     }
     
     margin-top: 10px;

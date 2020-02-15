@@ -3,6 +3,9 @@ import Particles from 'react-particles-js';
 import SocialMedia from 'components/SocialMedia'
 import { Typewriting } from 'react-typewriting'
 import resumePDF from 'assets/Andreas_Resume.pdf'
+import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
+
 
 import logo from 'assets/Logo.png'
 import './style.scss'
@@ -38,7 +41,7 @@ export default class FirstPage extends Component{
                 <img className="logo" src={logo} alt="andreas Logo"/>
                 <div className="firstPageContent">
                     <div className="title">
-                        <h2> Hello, I am <span>Andreas Sujono</span></h2>
+                        <LightSpeed><h2> Hello, I am <span>Andreas Sujono</span></h2></LightSpeed>
                         <h3> I am  
                         <Typewriting
                             strings={[
@@ -56,7 +59,9 @@ export default class FirstPage extends Component{
                         </h3>
                     </div>
                     <SocialMedia/>
-                    <div className="downloadResume"> <a href={resumePDF} target="_blank">Download Resume </a> </div>
+                    <Fade>
+                        <div className="downloadResume"> <a href={resumePDF} target="_blank">Download Resume </a> </div>
+                    </Fade>
                     
                 </div>
 

@@ -3,6 +3,9 @@ import Card from './Card'
 import Modal from 'components/Modal'
 import './style.scss'
 import projectsData from './utils'
+import Zoom from 'react-reveal/Zoom';
+
+
 
 class Projects extends Component {
     state={
@@ -52,6 +55,7 @@ class Projects extends Component {
                                 description={item.description}
                                 changeModalData = {this.changeModalData}
                                 setModal = {this.setModal}
+                                key={`${item.title}_${idx}`}
                             />
                         ))
                     }
@@ -59,11 +63,13 @@ class Projects extends Component {
                 
                 <div class="modalContainer" ref="modal">
                     {this.state.modal && 
-                    <Modal 
-                        {...this.state.data}
-                        closeModal = {this.closeModal}
-                        
-                    />}
+                        <Modal 
+                            {...this.state.data}
+                            closeModal = {this.closeModal}
+                            
+                        />
+                    }
+                    
                 </div>
                 
             </div>
