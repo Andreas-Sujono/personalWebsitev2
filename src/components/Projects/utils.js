@@ -19,7 +19,8 @@ const projectsData = [
         title:'Idealist',
         techStack:"ReactJs",
         description:'Idealist is a news platform',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/ideaList"
     },
     {
         image:projects_skinTech,
@@ -62,7 +63,8 @@ const projectsData = [
         title:'Reduxtagram',
         techStack:"React + Redux",
         description:'Reduxtagram',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/reduxtagram"
     },
     {
         image:projects_capture,
@@ -70,7 +72,8 @@ const projectsData = [
         title:'Capture',
         techStack:"React + Firebase",
         description:'Capture is an ecommerce website',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/Capture/"
     },
     {
         image:projects_markdownPreviewer,
@@ -86,7 +89,8 @@ const projectsData = [
         title:'Pomodoro CLock',
         techStack:"React",
         description:'PomodoroClock',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/pomodoro-clock"
     },
     {
         image:projects_drumMachine,
@@ -94,7 +98,8 @@ const projectsData = [
         title:'Drum Machine',
         techStack:"React",
         description:'Drum Machine',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/drum-machine"
     },
     {
         image:projects_memeGenerator,
@@ -102,7 +107,8 @@ const projectsData = [
         title:'Meme Generator',
         techStack:"React",
         description:'Meme Generator',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/meme-generator"
     },
     {
         image:projects_quoteGenerator,
@@ -110,7 +116,8 @@ const projectsData = [
         title:'Quote Generator',
         techStack:"React",
         description:'Quote Generator',
-        otherImage : []
+        otherImage : [],
+        link:"https://andreas-sujono.github.io/random-quote-machine"
     },
 
 ]

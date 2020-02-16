@@ -19,7 +19,7 @@ class Modal extends Component {
     }
 
     render() {
-        const {image, title, description,closeModal} = this.props
+        const {image, title, description,closeModal,link} = this.props
         return (
             <div className="andreModalContainer">
                 <div className="andreModal" ref="modal">
@@ -29,6 +29,7 @@ class Modal extends Component {
                     <hr/>
                     <div className="description">
                         {description}
+                        { link && <p>check demo at: <a href={link} target="_blank">{link}</a></p>}
                     </div>
                     <div className="closeModal" onClick={()=>closeModal()}>
                         &times;
