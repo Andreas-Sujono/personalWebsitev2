@@ -4,14 +4,14 @@
 	position: fixed;
 	top:0;
 	background-color: rgba(226, 223, 223,0.7);
-	z-index: 10;
+	z-index: 20;
 }
 .andreModal{
 	width:80%;
 	max-width: 500px;
 	min-height: 400px;
 	background-color: white;
-	z-index: 20;
+	z-index: 25;
 
 	position: fixed;
 	top:50%;
@@ -38,6 +38,7 @@
 		color: black;
 		height: 100px;
 		text-align: center;
+		margin-bottom: 50px;
 
 		>p{
 			margin-top: 20px;

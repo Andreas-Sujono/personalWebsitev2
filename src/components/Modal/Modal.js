@@ -29,6 +29,7 @@ class Modal extends Component {
                     <hr/>
                     <div className="description">
                         {description}
+                        <hr/>
                         { link && <p>check demo at: <a href={link} target="_blank">{link}</a></p>}
                     </div>
                     <div className="closeModal" onClick={()=>closeModal()}>
