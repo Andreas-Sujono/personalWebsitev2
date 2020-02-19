@@ -41,8 +41,8 @@ export default class FirstPage extends Component{
                 <img className="logo" src={logo} alt="andreas Logo"/>
                 <div className="firstPageContent">
                     <div className="title">
-                        <LightSpeed><h2> Hello, I am <span>Andreas Sujono</span></h2></LightSpeed>
-                        <h3> I am  
+                        <LightSpeed><h1> Hello, I am <span>Andreas Sujono</span></h1></LightSpeed>
+                        <h2> I am  
                         <Typewriting
                             strings={[
                                 ' a Web Developer',
@@ -56,7 +56,7 @@ export default class FirstPage extends Component{
                                 <span aria-label={fullCurrentText}>{currentText}</span>
                             )}
                         </Typewriting>
-                        </h3>
+                        </h2>
                     </div>
                     <SocialMedia/>
                     <Fade>

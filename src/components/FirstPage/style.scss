@@ -20,16 +20,19 @@
         color:white;
         z-index: 10;
 
-        .title{
+        >.title{
             text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             z-index: 10;
-            h2{
+            h1{
                 font-size: 40px;
             }
-            h2 >span{
+            h1 >span{
                 color: rgb(227,27,109);
                 font-weight: bold;
+            }
+            h2{
+                font-size: 32px;
             }
         }
 
