@@ -3,7 +3,7 @@ Personal Website
 
 This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.xyz/](https://andreassujono.xyz/)
 
-<img src='./Readme-asset/AndreasSujonoWebsite.png' alt="first page of Andreas Sujono's website" width=400>
+<img src='./Readme-asset/AndreasSujonoWebsite.png' alt="first page of Andreas Sujono's website" width='100%'>
 
 Dependencies
 --------
