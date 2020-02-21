@@ -1,4 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal Website
+========
+
+This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.xyz/](https://andreassujono.xyz/)
+
+![first page of Andreas Sujono's website]('./Readme-asset/AndreasSujonoWebsite.png')
+
+Dependencies
+--------
+
+- react
+- react-particles-js
+- react-reveal
+- react-scroll
+- react-typewriting
+- node-sass
+- gh-pages (for deployment)
+
+Other library: Bootstrap, JQuery, Fontawesome (currently using cdn distribution)
+
+Installation
+------------
+
+Clone this repository, and run:
+
+    yarn install
+
+   or
+   
+    npm install
+
 
 ## Available Scripts
 
