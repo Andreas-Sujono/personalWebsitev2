@@ -10,7 +10,7 @@ import Zoom from 'react-reveal/Zoom';
 class Projects extends Component {
     state={
         modal:false,
-        data:{image:null,title:null,description:null,techStack:null,link:null}
+        data:null
     }
 
     setModal = () => {
@@ -39,6 +39,9 @@ class Projects extends Component {
                                 techStack={item.techStack} 
                                 description={item.description}
                                 link= {item.link ? item.link : null}
+                                sourceCode = {item.sourceCode ? item.sourceCode : null}
+                                otherImage = {item.otherImage}
+
                                 changeModalData = {this.changeModalData}
                                 setModal = {this.setModal}
                                 key={`${item.title}_${idx}`}

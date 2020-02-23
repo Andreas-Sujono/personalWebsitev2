@@ -1,4 +1,4 @@
-Personal Website
+Personal Website V2
 ========
 
 This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.xyz/](https://andreassujono.xyz/)
