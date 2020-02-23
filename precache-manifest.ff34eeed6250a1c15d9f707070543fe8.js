@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bf1b7e113ef2bb1fed00a400dfd8fb4",
+    "revision": "81abfdd23bf0d633f15ade071c4aa4cb",
     "url": "/index.html"
   },
   {
-    "revision": "f4553a99e1617be1231b",
-    "url": "/static/css/main.243df7f6.chunk.css"
+    "revision": "5c0299b6e6d0e73f22cf",
+    "url": "/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "0ef43ee9bf6c09f07922",
-    "url": "/static/js/2.5154c919.chunk.js"
+    "revision": "447f4aef272e79394d1f",
+    "url": "/static/css/main.9ae6a9f4.chunk.css"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.5154c919.chunk.js.LICENSE"
+    "revision": "5c0299b6e6d0e73f22cf",
+    "url": "/static/js/2.f497aea3.chunk.js"
   },
   {
-    "revision": "f4553a99e1617be1231b",
-    "url": "/static/js/main.de4724c3.chunk.js"
+    "revision": "3a5da4106a08e596432e5e2628e1ef8d",
+    "url": "/static/js/2.f497aea3.chunk.js.LICENSE"
+  },
+  {
+    "revision": "447f4aef272e79394d1f",
+    "url": "/static/js/main.402d9655.chunk.js"
   },
   {
     "revision": "d2d39404254cd6acd38f",
@@ -28,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Andreas.4194e57a.jpg"
   },
   {
-    "revision": "387e36dac4eb78887aac9dc452fcaa13",
-    "url": "/static/media/Andreas_Resume.387e36da.pdf"
+    "revision": "c266e705511d5d0730d68954a9dd17cb",
+    "url": "/static/media/Andreas_Resume.c266e705.pdf"
   },
   {
     "revision": "b238f2e3b15cec021d4266b7c1da2ebb",
@@ -120,12 +124,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projects_capture.be59c7c7.png"
   },
   {
+    "revision": "866f1c7577f671fc6ec2e05647c5a6cc",
+    "url": "/static/media/projects_capture2.866f1c75.png"
+  },
+  {
+    "revision": "625e1dc09a623e2fab36ecfcea48cc63",
+    "url": "/static/media/projects_capture3.625e1dc0.png"
+  },
+  {
     "revision": "044ed1c6b54ecdcf5aaed06638cb4d05",
     "url": "/static/media/projects_drumMachine.044ed1c6.png"
   },
   {
     "revision": "f895633a6a1eec27192f7d9d6a91a866",
     "url": "/static/media/projects_idealist.f895633a.png"
+  },
+  {
+    "revision": "6e6b8d4c34ae22cc62c21beb66d63291",
+    "url": "/static/media/projects_idealist2.6e6b8d4c.png"
+  },
+  {
+    "revision": "7bc9f0ea6383e825c2f1ec0a67c7c25d",
+    "url": "/static/media/projects_idealist3.7bc9f0ea.png"
   },
   {
     "revision": "3163f40824d4b9d93b4a25abda15e214",
@@ -138,6 +158,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79e47511e4e1ec0dfc15facdbe8e7587",
     "url": "/static/media/projects_myblog.79e47511.png"
+  },
+  {
+    "revision": "b9c2ab4ba22ff3c6ae2aaa7e78aa88c1",
+    "url": "/static/media/projects_myblog2.b9c2ab4b.png"
+  },
+  {
+    "revision": "2bbadb7717c3e3360a258c492c10b974",
+    "url": "/static/media/projects_myblog3.2bbadb77.png"
+  },
+  {
+    "revision": "fdf2b5a3854168bcfa3a136a536fed21",
+    "url": "/static/media/projects_myblog4.fdf2b5a3.png"
   },
   {
     "revision": "436965cd39fd79970f8453cd3cbe3872",
@@ -156,12 +188,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projects_reduxtagram.6a2bfac6.png"
   },
   {
+    "revision": "08b00b384178d3f37d274a56ec93b41f",
+    "url": "/static/media/projects_reduxtagram2.08b00b38.png"
+  },
+  {
+    "revision": "f90e50cf7ef5bfa6b751021e60ee6c13",
+    "url": "/static/media/projects_reduxtagram3.f90e50cf.png"
+  },
+  {
     "revision": "35e0e520d156f87ce4ced941de465327",
     "url": "/static/media/projects_skinTech.35e0e520.png"
   },
   {
+    "revision": "e7a910381ae9a1060d0c76ee02e91f7c",
+    "url": "/static/media/projects_skinTech2.e7a91038.png"
+  },
+  {
+    "revision": "6f7bce9258eef54936d126e4ec7766a8",
+    "url": "/static/media/projects_skinTech3.6f7bce92.png"
+  },
+  {
     "revision": "56b20eb86977b61045d41f4c109bc2b6",
     "url": "/static/media/projects_togo.56b20eb8.png"
+  },
+  {
+    "revision": "95618109ee9a94027c9b3ddb2b929a1f",
+    "url": "/static/media/projects_togo2.95618109.png"
+  },
+  {
+    "revision": "d3b86b10f5ce2e1a9f890583264de8b3",
+    "url": "/static/media/projects_togo3.d3b86b10.png"
+  },
+  {
+    "revision": "c49e01162a98943c0346449e1739083b",
+    "url": "/static/media/projects_togo4.c49e0116.png"
   },
   {
     "revision": "71ede554b8fece541ac7a240c465ce01",
