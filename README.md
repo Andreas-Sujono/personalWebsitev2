@@ -13,6 +13,7 @@ Dependencies
 - react-reveal
 - react-scroll
 - react-typewriting
+- react-responsive-carousel
 - node-sass
 - gh-pages (for deployment)
 

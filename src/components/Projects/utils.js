@@ -2,6 +2,10 @@ import projects_idealist from 'assets/projects_idealist.png'
 import projects_idealist2 from 'assets/projects_idealist2.png'
 import projects_idealist3 from 'assets/projects_idealist3.png'
 
+import projects_codeMaster from 'assets/projects_codeMaster.png'
+import projects_codeMaster2 from 'assets/projects_codeMaster2.png'
+import projects_codeMaster3 from 'assets/projects_codeMaster3.png'
+
 import projects_skinTech from 'assets/projects_skinTech.png'
 import projects_skinTech2 from 'assets/projects_skinTech2.png'
 import projects_skinTech3 from 'assets/projects_skinTech3.png'
@@ -53,6 +57,26 @@ import projects_capture3 from 'assets/projects_capture3.png'
 
 const projectsData = [
     {
+        image:projects_codeMaster,
+        alt:'Website CodeMaster',
+        title:'Idealist',
+        techStack:"React",
+        description:['codeMaster is an online programming course. There are different kind of tracks available such as \
+        front end track, back end track, and data science track'],
+        link:"https://andreas-sujono.github.io/codeMaster",
+        sourceCode:'https://github.com/Andreas-Sujono/codeMaster',
+        otherImage : [
+            {
+                image:projects_codeMaster2,
+                alt:"Website CodeMaster"
+            },
+            {
+                image:projects_codeMaster3,
+                alt:"Website CodeMaster"
+            }
+        ],
+    },
+    {
         image:projects_idealist,
         alt:'Website Idealist',
         title:'Idealist',
@@ -73,8 +97,8 @@ const projectsData = [
                 alt:"idealist3"
             }
         ],
-        
     },
+
     {
         image:projects_skinTech,
         alt:'SkinTech website',
