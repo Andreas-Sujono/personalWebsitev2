@@ -58,7 +58,13 @@
         .content{
             width: 90%;
         }
-    }   
+    } 
+    
+    #certificates{
+        >h2{
+            font-size: 32px;
+        }
+    }
 }
 
 //for smaller device
