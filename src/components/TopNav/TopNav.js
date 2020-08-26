@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 import './style.scss'
 
-import { Link,animateScroll as Scroll} from 'react-scroll'
+import { Link} from 'react-scroll'
 
 class TopNav extends Component{
 

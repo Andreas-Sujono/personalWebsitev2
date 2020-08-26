@@ -61,8 +61,7 @@ const projectsData = [
         alt:'Website CodeMaster',
         title:'Idealist',
         techStack:"React",
-        description:['codeMaster is an online programming course. There are different kind of tracks available such as \
-        front end track, back end track, and data science track'],
+        description:['codeMaster is an online programming course. There are different kind of tracks available such as front end track, back end track, and data science track'],
         link:"https://andreas-sujono.github.io/codeMaster",
         sourceCode:'https://github.com/Andreas-Sujono/codeMaster',
         otherImage : [
@@ -81,10 +80,8 @@ const projectsData = [
         alt:'Website Idealist',
         title:'Idealist',
         techStack:"React + NodeJs",
-        description:['Idealist is an online news platform, it allows user to signup and login \
-        and create post to share their experience or knowledge.', 
-        'Other features including user comments, news admin that allows user \
-        to update/delete their own post.'],
+        description:['Idealist is an online news platform, it allows user to signup and login and create post to share their experience or knowledge.', 
+        'Other features including user comments, news admin that allows user to update/delete their own post.'],
         link:"https://andreas-sujono.github.io/ideaList",
         sourceCode:'https://github.com/Andreas-Sujono/ideaList',
         otherImage : [
@@ -104,9 +101,7 @@ const projectsData = [
         alt:'SkinTech website',
         title:'SkinTech',
         techStack:"Django + Tensorflow",
-        description:['SkinTech is skin cancer detector, it use machine learning to classify whether \
-        skin image is consider a malignant or benign cancer.','Future improvement: Add chat for doctor consultation, \
-        seperate page for doctor and patient'],
+        description:['SkinTech is skin cancer detector, it use machine learning to classify whether skin image is consider a malignant or benign cancer.','Future improvement: Add chat for doctor consultation, seperate page for doctor and patient'],
         sourceCode:'https://github.com/Andreas-Sujono/skinTech',
         otherImage : [
             {

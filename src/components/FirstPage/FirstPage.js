@@ -60,7 +60,7 @@ export default class FirstPage extends Component{
                     </div>
                     <SocialMedia/>
                     <Fade>
-                        <div className="downloadResume"> <a href={resumePDF} target="_blank">Download Resume </a> </div>
+                        <div className="downloadResume"> <a href={resumePDF} target="_blank" rel="noopener noreferrer">Download Resume </a> </div>
                     </Fade>
                     
                 </div>

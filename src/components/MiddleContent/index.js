@@ -6,7 +6,7 @@ class middleContent extends Component {
         return (
             <div class="middleContent">
                 <div class="text">
-                    Check more projects in my github <a style={{color:'skyblue'}}href="https://github.com/Andreas-Sujono" target="_blank"> Here </a>
+                    Check more projects in my github <a style={{color:'skyblue'}} href="https://github.com/Andreas-Sujono" target="_blank" rel="noopener noreferrer"> Here </a>
                 </div>
             </div>
         );

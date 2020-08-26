@@ -45,14 +45,14 @@ class Footer extends Component{
     render(){
         return(
             <div className="footer" id="footer">
-                <img src={divider} className="divider"/>
+                <img src={divider} className="divider" alt="before footer"/>
 
                 
                 <div className="rowContainer">
                     
                     <div className="row">
                         <div className="logoLeft col-md-2 col-12">
-                            <img src={logo} />
+                            <img src={logo} alt="andreass logo"/>
                         </div>
         
                         <div className="section1 col-md-4 col-12">
@@ -114,8 +114,8 @@ class Footer extends Component{
                                             />
                                         </div>
                                         <button className="btn btn-primary">Submit</button>
-                                        {this.state.status == 'SUCCESS' && <p className="bg-success statusMessage">Thanks!</p>}
-                                        {this.state.status == 'ERROR' && <p className="bg-danger statusMessage">There is an error! try again later</p>}
+                                        {this.state.status === 'SUCCESS' && <p className="bg-success statusMessage">Thanks!</p>}
+                                        {this.state.status === 'ERROR' && <p className="bg-danger statusMessage">There is an error! try again later</p>}
                                     </form>
                                 </div>
                             </div>

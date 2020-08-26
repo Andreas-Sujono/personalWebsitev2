@@ -5,7 +5,7 @@ import gallery_electronic from 'assets/gallery/gallery_electronic.jpg';
 import gallery_ICNIT from 'assets/gallery/gallery_ICNIT.jpg';
 import gallery_google from 'assets/gallery/gallery_google.jpg';
 import gallery_ICNMarketing from 'assets/gallery/gallery_ICNMarketing.jpg';
-import gallery_ICNMarketing2 from 'assets/gallery/gallery_ICNMarketing2.jpg';
+// import gallery_ICNMarketing2 from 'assets/gallery/gallery_ICNMarketing2.jpg';
 import gallery_ICNWithActor from 'assets/gallery/gallery_ICNWithActor.jpg';
 import gallery_nature1 from 'assets/gallery/gallery_nature1.jpg';
 import gallery_nature2 from 'assets/gallery/gallery_nature2.jpg';

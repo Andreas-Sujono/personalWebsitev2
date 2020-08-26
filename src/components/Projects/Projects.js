@@ -3,9 +3,7 @@ import Card from './Card'
 import Modal from 'components/Modal'
 import './style.scss'
 import projectsData from './utils'
-import Zoom from 'react-reveal/Zoom';
-
-
+// import Zoom from 'react-reveal/Zoom';
 
 class Projects extends Component {
     state={

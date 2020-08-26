@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 class Card extends Component {
     render() {
-        const {image,alt,title,description} = this.props
+        const {image,alt} = this.props
         return (
             <div className="card">
                 <Fade><img src={image} alt={alt}/></Fade>

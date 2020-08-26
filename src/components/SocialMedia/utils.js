@@ -1,6 +1,6 @@
 
-import linkedinLogo from 'assets/linkedin.png'
-import githubLogo from 'assets/github.png'
+// import linkedinLogo from 'assets/linkedin.png'
+// import githubLogo from 'assets/github.png'
 
 const socialMediaData = [
     {

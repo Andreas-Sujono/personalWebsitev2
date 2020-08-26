@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'components/Modal'
+// import Modal from 'components/Modal'
 import './style.scss'
 import Zoom from 'react-reveal/Zoom';
 

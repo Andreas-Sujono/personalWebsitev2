@@ -25,7 +25,7 @@ class About extends Component {
 
                 <div className="row">
                     <div className="leftContent col-lg-5 col- 10">
-                        <Zoom><img src={andreasPhoto}/></Zoom>
+                        <Zoom><img src={andreasPhoto} alt="andreas"/></Zoom>
                         <LightSpeed>
                             <h4>About Me</h4>
                         </LightSpeed>
@@ -73,7 +73,7 @@ class About extends Component {
                         skillImage.map( (item,idx) => (
                             <div className="skillImageIndividual col" key={`${item.name}_${idx}`}>
                                 <Zoom>
-                                <img src={item.image}/>
+                                <img src={item.image} alt="skill"/>
                                 <h4>{item.title}</h4>
                                 <div>{item.detail}</div>
                                 </Zoom>
