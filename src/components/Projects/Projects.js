@@ -39,7 +39,6 @@ class Projects extends Component {
                                 link= {item.link ? item.link : null}
                                 sourceCode = {item.sourceCode ? item.sourceCode : null}
                                 otherImage = {item.otherImage}
-
                                 changeModalData = {this.changeModalData}
                                 setModal = {this.setModal}
                                 key={`${item.title}_${idx}`}
@@ -48,7 +47,7 @@ class Projects extends Component {
                     }
                 </div>
                 
-                <div class="modalContainer">
+                <div className="modalContainer">
                     {this.state.modal && 
                         <Modal 
                             {...this.state.data}

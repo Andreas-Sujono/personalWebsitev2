@@ -14,10 +14,10 @@ class Gallery extends Component {
                 <div className="content galleryRow">
                     {
                         column.map( (item,idx) => (
-                            <div className="galleryColumn">
+                            <div className="galleryColumn" key={Math.random()}>
                             {
                                 galleryData.slice(parseInt(length/columnLength) * idx,parseInt(length/columnLength) * (idx+1)).map( (item,idx) => (
-                                    <Card image={item.image} alt={item.alt} />
+                                    <Card image={item.image} alt={item.alt} key={Math.random()}/>
                                 ))
                             }
                             </div>

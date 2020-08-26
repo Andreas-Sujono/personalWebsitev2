@@ -13,8 +13,8 @@
     >ul{
         padding-top: 20px;
         position: absolute;
-        left:50%;
-        transform: translate(-50%,0);
+        left:50% !important;
+        transform: translate(-50%,0) !important;
         li{
             list-style-type: none;
             display: inline;

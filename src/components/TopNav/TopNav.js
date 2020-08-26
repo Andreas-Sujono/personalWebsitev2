@@ -10,16 +10,17 @@ class TopNav extends Component{
         const navList = [{title:'Home', link:'firstPage'},
                         {title:'About', link:'about'},
                         {title:'Projects', link:'projects'},
+                        {title:'Certificates', link:'certificates'},
                         {title:'Gallery', link:'gallery'},
                         {title:'Contact', link:'footer'},
                     ]
 
         return (
-            <div class="topNav fluid-container" > 
+            <div className="topNav fluid-container" > 
                     <ul>
                         {
                         navList.map( item => (
-                            <li className="collapseIndividual"> 
+                            <li className="collapseIndividual" key={Math.random()}> 
                                 {
                                 <Link
                                     activeClass="navActive"

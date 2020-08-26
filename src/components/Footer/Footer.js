@@ -6,9 +6,9 @@ import divider from 'assets/footerDivider.png'
 class Footer extends Component{
 
     state={
-        email:null,
-        name:null,
-        message:null,
+        email:'',
+        name:'',
+        message:'',
         status:null
     }
 
@@ -57,7 +57,7 @@ class Footer extends Component{
         
                         <div className="section1 col-md-4 col-12">
                             <h2> Contact </h2>
-                            <div class="contentSection1">
+                            <div className="contentSection1">
                                 <ul>
                                     <li> <a href="https://www.facebook.com/andreas.sujono.543">Facebook</a></li>
                                     <li><a href="https://www.instagram.com/andreassujono/">Instagram</a></li>
@@ -71,7 +71,7 @@ class Footer extends Component{
         
                         <div className="section2 col-md-5 col-12">
                             <h2> Want to work together? </h2>
-                            <div class="contentSection2">
+                            <div className="contentSection2">
 
                                 <div className="footerForm">
                                     <form 
