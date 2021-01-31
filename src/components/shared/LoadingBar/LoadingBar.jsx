@@ -8,13 +8,14 @@ const LoadingWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: ${(props) => (props.isFullPage ? 'rgb(37,42,53)' : 'none')};
 `;
 
 function LoadingBar({
   type = 'spinningBubbles',
   color = '#e31b6d',
-  width = 50,
-  height = 50,
+  width = 100,
+  height = 100,
   isFullPage = false,
 }) {
   return (

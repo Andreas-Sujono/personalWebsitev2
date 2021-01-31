@@ -1,34 +1,43 @@
 import React, { useState } from 'react';
-import { Link as DiffPageLink } from 'react-router-dom';
+import { Link as DiffPageLink, withRouter, matchPath } from 'react-router-dom';
 import { Link as SamePageLink } from 'react-scroll';
 import { GiHamburgerMenu as DropdownIcon } from 'react-icons/gi';
 
 import './style.scss';
 
-const TopNav = () => {
+const TopNav = (props) => {
   const [isDropdownExpand, setIsDropdownExpand] = useState(false);
   const navList = [
-    { title: 'Home', samePageLink: 'firstPage' },
-    { title: 'About', samePageLink: 'about' },
-    { title: 'Projects', samePageLink: 'projects' },
-    { title: 'Certificates', samePageLink: 'certificates' },
-    { title: 'Gallery', samePageLink: 'gallery' },
-    { title: 'Contact', samePageLink: 'footer' },
-    { title: 'Blog', diffPageLink: '/blog', highlighted: true },
+    { title: 'Home', samePageLink: true, path: '/', id: 'firstPage' },
+    { title: 'About', samePageLink: true, path: '/', id: 'about' },
+    { title: 'Projects', samePageLink: true, path: '/', id: 'projects' },
+    {
+      title: 'Certificates',
+      samePageLink: true,
+      path: '/',
+      id: 'certificates',
+    },
+    { title: 'Gallery', samePageLink: true, path: '/', id: 'gallery' },
+    { title: 'Contact', samePageLink: true, path: '/', id: 'footer' },
+    { title: 'Blog', diffPageLink: true, highlighted: true, path: '/blog' },
   ];
+
+  const isInSamePage = (path) => {
+    return matchPath(path, { path: props.location.pathname, exact: true });
+  };
 
   return (
     <div className="topNav fluid-container">
       <ul className="inline-ul">
         {navList.map((item) =>
-          item.samePageLink ? (
+          item.samePageLink && isInSamePage(item.path) ? (
             <li
               className={item.highlighted ? 'highlighted' : ''}
-              key={item.samePageLink}
+              key={item.title}
             >
               <SamePageLink
                 activeClass="navActive"
-                to={item.samePageLink}
+                to={item.id}
                 spy
                 smooth
                 offset={-40}
@@ -39,10 +48,10 @@ const TopNav = () => {
             </li>
           ) : (
             <li
-              key={item.diffPageLink}
+              key={item.title}
               className={item.highlighted ? 'highlighted' : ''}
             >
-              <DiffPageLink to={item.diffPageLink}>{item.title}</DiffPageLink>
+              <DiffPageLink to={item.path}>{item.title}</DiffPageLink>
             </li>
           ),
         )}
@@ -58,14 +67,14 @@ const TopNav = () => {
           }`}
         >
           {navList.map((item) =>
-            item.samePageLink ? (
+            item.samePageLink && isInSamePage(item.path) ? (
               <li
-                key={item.samePageLink}
+                key={item.title}
                 className={item.highlighted ? 'highlighted' : ''}
               >
                 <SamePageLink
                   activeClass="navActive"
-                  to={item.samePageLink}
+                  to={item.id}
                   spy
                   smooth
                   offset={-40}
@@ -76,10 +85,10 @@ const TopNav = () => {
               </li>
             ) : (
               <li
-                key={item.diffPageLink}
+                key={item.title}
                 className={item.highlighted ? 'highlighted' : ''}
               >
-                <DiffPageLink to={item.diffPageLink}>{item.title}</DiffPageLink>
+                <DiffPageLink to={item.path}>{item.title}</DiffPageLink>
               </li>
             ),
           )}
@@ -89,4 +98,4 @@ const TopNav = () => {
   );
 };
 
-export default TopNav;
+export default withRouter(TopNav);

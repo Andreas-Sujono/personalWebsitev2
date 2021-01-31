@@ -1,0 +1,15 @@
+.blog-card{
+    margin-top: 24px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px dashed lightgrey;
+
+    .pub-date{margin-top: 12px; font-style: italic;}
+    .categories{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        >span{margin-right: 12px; padding: 8px; margin-bottom: 6px;}
+    }
+
+    img{width: 100%;}
+}
