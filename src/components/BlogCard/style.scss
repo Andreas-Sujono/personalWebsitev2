@@ -3,6 +3,7 @@
     width: 100%;
     max-width: 500px;
     border: 1px dashed lightgrey;
+    padding-bottom: 18px;
 
     .pub-date{margin-top: 12px; font-style: italic;}
     .categories{
@@ -12,4 +13,5 @@
     }
 
     img{width: 100%;}
+    .gh-code{padding: 0 24px;margin-bottom: 12px;}
 }

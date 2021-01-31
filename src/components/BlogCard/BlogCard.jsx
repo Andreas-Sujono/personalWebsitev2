@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Markup } from 'interweave';
 
 import './style.scss';
 
-function BlogCard({ title, desc, link, pubDate, categories }) {
+function BlogCard({ title, desc, link, pubDate, categories, githubCode }) {
   const badgeString = [
     'secondary',
     'success',
@@ -40,6 +41,22 @@ function BlogCard({ title, desc, link, pubDate, categories }) {
           See more
         </a>
       </div>
+
+      {githubCode && (
+        <div className="gh-code">
+          <hr />
+          <strong>Github Code:</strong>&nbsp;
+          <a href={githubCode} target="__blank">
+            {githubCode}
+          </a>
+        </div>
+      )}
+      {githubCode && (
+        <div className="gh-code">
+          <strong>Github demo:</strong>&nbsp;
+          <Link to={`/blog/project?articleName=${title}`}>here</Link>
+        </div>
+      )}
     </div>
   );
 }

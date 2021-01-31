@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import UserForm from './components/UserForm';
 import UserCard from './components/UserCard';
-import './app.module.scss';
+import './app.scss';
 
 function App() {
   const [users, setUsers] = useState([]);

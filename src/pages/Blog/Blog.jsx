@@ -4,9 +4,17 @@ import TopNav from 'components/TopNav';
 import BlogCard from 'components/BlogCard';
 import LoadingBar from 'components/shared/LoadingBar';
 import logo from 'assets/Logo.png';
+import Footer from 'components/Footer';
 import './style.scss';
 
 const parser = new Parser({});
+
+const mapArticle = {
+  'Mastering React ~ Best Practices 2021 (Part 1/3)': {
+    githubCode:
+      'https://github.com/Andreas-Sujono/personalWebsitev2/tree/master/src/pages/BlogProject/ReactExample1',
+  },
+};
 
 function Blog() {
   const [mediumMeta, setMediumMeta] = useState({});
@@ -23,8 +31,14 @@ function Blog() {
     const feed = await parser.parseURL(url);
     console.log(feed);
 
+    const parsedItems = feed.items.map((item) => {
+      const { title } = item;
+      if (mapArticle[title]) return { ...item, ...mapArticle[title] };
+      return item;
+    });
+
     setMediumMeta(feed);
-    setArticles(feed.items);
+    setArticles(parsedItems);
     setIsLoading(false);
   };
 
@@ -54,10 +68,13 @@ function Blog() {
               link={item.link}
               pubDate={item.pubDate.slice(0, 17)}
               categories={item.categories}
+              githubCode={item.githubCode}
             />
           </div>
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 }

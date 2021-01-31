@@ -1,6 +1,7 @@
 // import { lazy } from 'react';
 import Homepage from 'pages/Homepage';
 import Blog from 'pages/Blog';
+import BlogProject from 'pages/BlogProject';
 
 const routeList = [
   {
@@ -14,9 +15,9 @@ const routeList = [
     component: Blog,
   },
   {
-    path: '/blog/project/:project-id',
-    exact: false,
-    component: Blog,
+    path: '/blog/project',
+    exact: true,
+    component: BlogProject,
   },
 ];
 

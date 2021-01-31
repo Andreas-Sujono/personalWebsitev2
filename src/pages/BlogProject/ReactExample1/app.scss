@@ -1,5 +1,9 @@
 .blog-project-react-example1-App{
+    width: 80%;
+    max-width: 600px;
     padding:24px;
+    margin: auto;
+
     h1{text-align: center; font-size: 26px;}
     h2{
         text-align: center;
@@ -8,8 +12,5 @@
     }
 
     .user-list{
-        width: 80%;
-        max-width: 600px;
-        margin: auto;
     }
 }

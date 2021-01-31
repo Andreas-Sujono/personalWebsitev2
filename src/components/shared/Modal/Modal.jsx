@@ -19,11 +19,13 @@ function Modal({
   });
 
   useEffect(() => {
+    let isAppend = false;
     document.body.appendChild(modalRoot);
+    isAppend = true;
     return () => {
-      document.body.removeChild(modalRoot);
+      if (modalRoot && isAppend) document.body.removeChild(modalRoot);
     };
-  }, [modalRoot]);
+  }, []);
 
   const closeModal = () => {
     handleClose();
