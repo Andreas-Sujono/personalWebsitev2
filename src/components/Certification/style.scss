@@ -16,11 +16,27 @@
         margin-bottom: 80px;
     }
 
+    >div{    
+        div{ max-height: 400px; }
+        // button{display: none;}    
+    }
+
     .certificate-image{
         width: 100%;
         max-width: 500px;
         max-height: 400px;
         display: block;
         margin:auto;
+    }
+}
+
+@media Screen and (max-width: 650px){
+    .certification-section{
+        >div{    
+            div{ max-height: 250px; }
+        }
+        .certificate-image{
+            max-height: 250px;
+        }
     }
 }

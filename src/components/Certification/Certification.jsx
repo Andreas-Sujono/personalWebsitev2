@@ -36,6 +36,14 @@ function Certification() {
         infinite
         swipeable
         showDots
+        autoPlay
+        autoPlaySpeed={2500}
+        removeArrowOnDeviceType={[
+          'superLargeDesktop',
+          'desktop',
+          'tablet',
+          'mobile',
+        ]}
       >
         {data.map((image) => (
           <img
