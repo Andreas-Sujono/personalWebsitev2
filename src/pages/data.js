@@ -4,20 +4,16 @@ const routeList = [
   {
     path: '/',
     exact: true,
-    component: lazy(() => import('src/pages/Homepage')),
+    component: lazy(() => import('pages/Homepage')),
   },
   {
     path: '/blog',
     exact: true,
-    component: lazy(() =>
-      import('admin_desktop/components/LandingPage/AboutUs'),
-    ),
+    component: lazy(() => import('pages/Blog')),
   },
   {
     path: '/blog/project/:project-id',
-    component: lazy(() =>
-      import('admin_desktop/components/LandingPage/AboutUs'),
-    ),
+    component: lazy(() => import('pages/Homepage')),
   },
 ];
 

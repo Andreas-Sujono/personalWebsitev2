@@ -40,13 +40,11 @@ const FirstPage = () => {
         <div className="title">
           <LightSpeed>
             <h1>
-              {' '}
               Hello, I am <span>Andreas Sujono</span>
             </h1>
           </LightSpeed>
           <h2>
-            {' '}
-            I am I am
+            I am
             <Typewriting
               strings={[
                 ' a Web Developer',

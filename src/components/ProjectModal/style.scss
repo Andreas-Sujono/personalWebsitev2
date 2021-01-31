@@ -20,6 +20,7 @@
 	left:50%;
 	transform: translate(-50%,-60%);
 	padding:0;
+	padding-bottom: 20px;
 
 	border:1px solid maroon;
 
@@ -40,9 +41,7 @@
 	>.description{
 		padding:10px;
 		color: black;
-		height: 100px;
 		text-align: center;
-		margin-bottom: 50px;
 
 		>.techStack{
 			font-size: 18px;
@@ -60,9 +59,9 @@
 	}
 
 	.closeModal{
-		position: absolute;
-		top:0;
-		right:25px;
+		position: fixed;
+		top:0px;
+		right:10px;
 		font-size: 40px;
 		color:red;
 		cursor: pointer;
