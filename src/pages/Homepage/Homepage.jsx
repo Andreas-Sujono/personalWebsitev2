@@ -36,7 +36,7 @@ function Homepage() {
       <Certification />
       <Gallery />
       <Footer />
-      {adsContent.length &&
+      {/* {adsContent.length &&
         adsContent.map((item) => (
           <AdsModal
             key={item.id}
@@ -48,7 +48,7 @@ function Homepage() {
             link={item.link}
             id={item.id}
           />
-        ))}
+        ))} */}
     </div>
   );
 }
