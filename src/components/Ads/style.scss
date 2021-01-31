@@ -31,3 +31,9 @@
         line-height: 1.2em;
     }
 }
+
+@media Screen and (max-width:650px){
+    .ads-modal-content{
+        >img{height: 50% ;}
+    }
+}
