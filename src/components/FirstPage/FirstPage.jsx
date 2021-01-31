@@ -3,9 +3,9 @@ import Particles from 'react-particles-js';
 import { Typewriting } from 'react-typewriting';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
-import SocialMedia from 'components/SocialMedia';
 import resumePDF from 'assets/Andreas_Resume.pdf';
 import logo from 'assets/Logo.png';
+import SocialMedia from './SocialMedia';
 import './style.scss';
 
 const particlesOptions = {

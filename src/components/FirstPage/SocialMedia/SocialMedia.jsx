@@ -1,5 +1,5 @@
 import React from 'react';
-import socialMediaData from './utils.js';
+import socialMediaData from './utils';
 import './style.scss';
 
 const SocialMedia = () => {
@@ -12,7 +12,9 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div dangerouslySetInnerHTML={{ __html: item.htmlEl }} />
+          <div className="socialMedia-icon">
+            <i className={item.iconName} />
+          </div>
         </a>
       ))}
     </div>

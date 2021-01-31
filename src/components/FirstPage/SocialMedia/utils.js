@@ -5,13 +5,13 @@ const socialMediaData = [
   {
     // logo:linkedinLogo,
     title: 'Linkedin',
-    htmlEl: '<i class="fab fa-linkedin-in"></i>',
+    iconName: 'fab fa-linkedin-in',
     link: 'https://www.linkedin.com/in/andreasSujono',
   },
   {
     // logo:githubLogo,
     title: 'github',
-    htmlEl: '<i class="fab fa-github"></i>',
+    iconName: 'fab fa-github',
     link: 'https://www.github.com/Andreas-Sujono',
   },
 ];

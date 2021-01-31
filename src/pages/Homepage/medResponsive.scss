@@ -14,8 +14,8 @@
     }
 
     .topNav{
-        >ul{left: -40px; transform: translate(0,0);}
-        >ul li {font-size: 15px;}
+        >ul.inline-ul{left: -40px; transform: translate(0,0);}
+        >ul.inline-ul li {font-size: 15px;}
     }
     .about{
         >h2{
