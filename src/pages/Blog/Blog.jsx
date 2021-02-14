@@ -27,7 +27,7 @@ function Blog() {
 
   const getMediumData = async () => {
     const url =
-      'https://api-andreassujono.herokuapp.com//https://medium.com/feed/@andreassujono';
+      'https://api-andreassujono.herokuapp.com/https://medium.com/feed/@andreassujono';
     const feed = await parser.parseURL(url);
     console.log(feed);
 
