@@ -1,7 +1,7 @@
 Personal Website V2
 ========
 
-This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.xyz/](https://andreassujono.xyz/)
+This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.com/](https://andreassujono.com/)
 
 <img src='./Readme-asset/AndreasSujonoWebsite.png' alt="first page of Andreas Sujono's website" width='100%'>
 
