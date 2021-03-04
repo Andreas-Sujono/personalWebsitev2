@@ -20,19 +20,27 @@ function AdsModal({
     handleShowAds();
   }, []);
 
+
   const handleShowAds = () => {
-    const adsIds = localStorage.getItem('andreas-ads');
+    let adsIds = localStorage.getItem('andreas-ads');
+    try{
+      if(adsIds) adsIds = JSON.parse(adsIds)
+      if (adsIds?.length && adsIds.includes(id) && !adsExpired) return;
+    }
+    catch(err){
+      localStorage.removeItem('andreas-ads');
+    }
+
     const lastVisited = localStorage.getItem('last-visited');
-    const interval = 12 * 3600 * 1000;
+    const interval = 1 * 3600 * 1000; // 1 hour
     const adsExpired =
       lastVisited && new Date().getTime() - lastVisited > interval;
 
-    if (adsIds?.length && adsIds.includes(id) && !adsExpired) return;
-
     setShowAds(true);
+    localStorage.removeItem('andreas-ads');
     localStorage.setItem(
       'andreas-ads',
-      adsIds?.length ? [...adsIds, id] : [id],
+      JSON.stringify(adsIds?.length ? [...adsIds, id] : [id]),
     );
     localStorage.setItem('last-visited', new Date().getTime());
   };

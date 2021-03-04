@@ -23,13 +23,13 @@ function Modal({
     document.body.appendChild(modalRoot);
     isAppend = true;
     return () => {
-      if (modalRoot && isAppend) document.body.removeChild(modalRoot);
+      if (modalRoot && isAppend && document.body.contains(modalRoot)) document.body.removeChild(modalRoot);
     };
   }, []);
 
   const closeModal = () => {
     handleClose();
-    document.body.removeChild(modalRoot);
+    if(modalRoot && document.body.contains(modalRoot)) document.body.removeChild(modalRoot);
   };
 
   const renderModal = (_children) => (
