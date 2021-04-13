@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router-dom';
-import Modal from 'components/shared/Modal';
+import { Modal } from 'react-dre/Modal';
 import './style.scss';
 
 function AdsModal({
@@ -20,21 +20,19 @@ function AdsModal({
     handleShowAds();
   }, []);
 
-
   const handleShowAds = () => {
     let adsIds = localStorage.getItem('andreas-ads');
-    try{
-      if(adsIds) adsIds = JSON.parse(adsIds)
-      if (adsIds?.length && adsIds.includes(id) && !adsExpired) return;
-    }
-    catch(err){
-      localStorage.removeItem('andreas-ads');
-    }
-
     const lastVisited = localStorage.getItem('last-visited');
     const interval = 1 * 3600 * 1000; // 1 hour
     const adsExpired =
       lastVisited && new Date().getTime() - lastVisited > interval;
+
+    try {
+      if (adsIds) adsIds = JSON.parse(adsIds);
+      if (adsIds?.length && adsIds.includes(id) && !adsExpired) return;
+    } catch (err) {
+      localStorage.removeItem('andreas-ads');
+    }
 
     setShowAds(true);
     localStorage.removeItem('andreas-ads');
