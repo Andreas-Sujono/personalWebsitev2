@@ -9,6 +9,9 @@
     "react",
     "react-hooks"
   ],
+  "env": {
+    "browser": true
+  },
   "rules": {
     "linebreak-style": [
       "error",

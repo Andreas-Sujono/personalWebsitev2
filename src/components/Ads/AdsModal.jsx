@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable react/prop-types */
+import React, { useEffect, useState, useCallback } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Modal } from 'react-dre/Modal';
+import { Modal } from 'react-dre';
 import './style.scss';
 
 function AdsModal({
   isOpen,
   handleClose,
-  clickOutsideToClose,
   title,
   desc,
   image,
@@ -16,11 +16,7 @@ function AdsModal({
 }) {
   const [showAds, setShowAds] = useState(false);
 
-  useEffect(() => {
-    handleShowAds();
-  }, []);
-
-  const handleShowAds = () => {
+  const handleShowAds = useCallback(() => {
     let adsIds = localStorage.getItem('andreas-ads');
     const lastVisited = localStorage.getItem('last-visited');
     const interval = 1 * 3600 * 1000; // 1 hour
@@ -41,16 +37,19 @@ function AdsModal({
       JSON.stringify(adsIds?.length ? [...adsIds, id] : [id]),
     );
     localStorage.setItem('last-visited', new Date().getTime());
-  };
+  }, [id]);
+
+  useEffect(() => {
+    handleShowAds();
+  }, [handleShowAds]);
 
   if (!showAds) return null;
 
   return (
     <Modal
       isOpen={isOpen}
-      handleClose={handleClose}
-      clickOutsideToClose={clickOutsideToClose}
-      maxWidth="500px"
+      onRequestClose={handleClose}
+      shouldCloseOnOverlayClick
     >
       <div className="ads-modal-content" onClick={() => history.push(link)}>
         <img src={image} alt="modal" />
