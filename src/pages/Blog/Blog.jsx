@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Parser from 'rss-parser';
+import axios from 'axios';
 import TopNav from 'components/TopNav';
 import BlogCard from 'components/BlogCard';
 import LoadingBar from 'components/shared/LoadingBar';
 import logo from 'assets/Logo.png';
 import Footer from 'components/Footer';
 import './style.scss';
-
-const parser = new Parser({});
 
 const mapArticle = {
   'Mastering React ~ Best Practices 2021 (Part 1/3)': {
@@ -27,10 +25,12 @@ function Blog() {
 
   const getMediumData = async () => {
     const url =
-      'https://api-andreassujono.herokuapp.com/https://medium.com/feed/@andreassujono';
-    const feed = await parser.parseURL(url);
-    console.log(feed);
+      'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@andreassujono';
 
+    const feedReq = await axios.get(url);
+    if (feedReq.status !== 200) return;
+
+    const feed = feedReq.data;
     const parsedItems = feed.items.map((item) => {
       const { title } = item;
       if (mapArticle[title]) return { ...item, ...mapArticle[title] };
@@ -47,14 +47,14 @@ function Blog() {
       <img className="logo" src={logo} alt="andreas Logo" />
 
       <TopNav />
-      <a href={mediumMeta.link} target="__blank">
+      <a href="https://andreassujono.medium.com/" target="__blank">
         <div className="blog-header">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png"
             className="medium-logo"
             alt="medium"
           />
-          <h1>{mediumMeta.description}</h1>
+          <p> Click here in case the blogs do not show up</p>
         </div>
       </a>
       <div className="blog-content row">

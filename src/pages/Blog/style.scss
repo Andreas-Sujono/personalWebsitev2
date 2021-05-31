@@ -1,18 +1,20 @@
 .blog-page{
     a:hover{text-decoration: none;}
     .blog-header{
-        width: 90%;
-        max-width: 500px;
+        width: 100%;
         margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         margin-top: 24px;
-    }
-    h1{
-        text-align: center;
-        font-size: 24px;
-        margin-left: 12px;
+        img{
+            display: block;
+            margin: auto;
+        }
+        p{
+            text-align: center;
+            margin-top: 12px;
+        }
     }
 
     .medium-logo{
