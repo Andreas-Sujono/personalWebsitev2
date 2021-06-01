@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { Link as DiffPageLink, withRouter, matchPath } from 'react-router-dom';
 import { Link as SamePageLink } from 'react-scroll';
-import { GiHamburgerMenu as DropdownIcon } from 'react-icons/gi';
-
+import { HamburgerIcon } from 'components/shared/Icons';
 import './style.scss';
 
 const TopNav = (props) => {
@@ -17,7 +16,7 @@ const TopNav = (props) => {
       path: '/',
       id: 'certificates',
     },
-    { title: 'Gallery', samePageLink: true, path: '/', id: 'gallery' },
+    // { title: 'Gallery', samePageLink: true, path: '/', id: 'gallery' },
     { title: 'Contact', samePageLink: true, path: '/', id: 'footer' },
     { title: 'Blog', diffPageLink: true, highlighted: true, path: '/blog' },
   ];
@@ -57,7 +56,7 @@ const TopNav = (props) => {
         )}
       </ul>
       <div className="dropdown-container">
-        <DropdownIcon
+        <HamburgerIcon
           className="icon dropdown-icon"
           onClick={() => setIsDropdownExpand(!isDropdownExpand)}
         />
@@ -98,4 +97,4 @@ const TopNav = (props) => {
   );
 };
 
-export default withRouter(TopNav);
+export default memo(withRouter(TopNav));

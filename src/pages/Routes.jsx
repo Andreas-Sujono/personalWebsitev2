@@ -1,24 +1,23 @@
-import React from 'react';
+import React, { memo, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
-
-// import LoadingBar from 'components/shared/LoadingBar';
+import { FullPageLoadingBar } from 'react-dre';
 import routes from './data';
 
 const Routes = () => {
   return (
     <Switch>
-      {/* <Suspense fallback={<LoadingBar isFullPage />}> */}
-      {routes.map((route, idx) => (
-        <Route
-          key={`${route.path}_${idx}`}
-          path={route.path}
-          exact={route.exact}
-          component={route.component}
-        />
-      ))}
-      {/* </Suspense> */}
+      <Suspense fallback={<FullPageLoadingBar />}>
+        {routes.map((route) => (
+          <Route
+            key={route.path}
+            path={route.path}
+            exact={route.exact}
+            component={route.component}
+          />
+        ))}
+      </Suspense>
     </Switch>
   );
 };
 
-export default Routes;
+export default memo(Routes);

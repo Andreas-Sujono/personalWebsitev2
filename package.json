@@ -4,11 +4,7 @@
   "private": true,
   "homepage": "https://andreassujono.com",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "axios": "^0.21.1",
-    "babel-loader": "8.1.0",
     "gh-pages": "^2.2.0",
     "interweave": "^12.7.0",
     "node-sass": "^4.13.1",
@@ -27,13 +23,12 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "react-typewriting": "^2.2.0",
-    "rss-parser": "^3.10.0",
     "source-map-explorer": "^2.5.2",
     "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts --max_old_space_size=256 build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -68,6 +63,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
+    "react-app-rewire-alias": "^1.0.3",
+    "react-app-rewired": "^2.1.8",
     "react-bootstrap": "^1.5.2"
   }
 }

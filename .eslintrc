@@ -2,6 +2,7 @@
   "extends": [
     "airbnb",
     "plugin:react/recommended",
+    "plugin:import/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "babel-eslint",
@@ -9,6 +10,13 @@
     "react",
     "react-hooks"
   ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
   "env": {
     "browser": true
   },
@@ -50,7 +58,6 @@
     "react/button-has-type": 1,
     "react/jsx-one-expression-per-line": 0,
     "jsx-a11y/label-has-associated-control":0,
-    "import/no-unresolved": 0,
     "react/state-in-constructor": 0
   }
 }

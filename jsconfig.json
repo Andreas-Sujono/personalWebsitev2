@@ -4,7 +4,8 @@
     "paths": {
       "pages/*": ["./src/pages/*"],
       "components/*": ["./src/components/*"],
-      "assets/*": ["./src/assets/*"]
+      "assets/*": ["./src/assets/*"],
+      "rdComponent/*": ["/Users/andreassujono/Desktop/FOLDER/job/react-dre/src/components/*"]
     }
   },
   "include": ["src"],

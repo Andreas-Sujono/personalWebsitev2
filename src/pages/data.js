@@ -1,23 +1,20 @@
-// import { lazy } from 'react';
-import Homepage from 'pages/Homepage';
-import Blog from 'pages/Blog';
-import BlogProject from 'pages/BlogProject';
+import { lazy } from 'react';
 
 const routeList = [
   {
     path: '/',
     exact: true,
-    component: Homepage,
+    component: lazy(() => import('pages/Homepage')),
   },
   {
     path: '/blog',
     exact: true,
-    component: Blog,
+    component: lazy(() => import('pages/Blog')),
   },
   {
     path: '/blog/project',
     exact: true,
-    component: BlogProject,
+    component: lazy(() => import('pages/BlogProject')),
   },
 ];
 
