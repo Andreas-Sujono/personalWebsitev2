@@ -9,9 +9,10 @@ WORKDIR /app
 # COPY ../yarn.lock .
 
 # add app
-COPY ../ ./
+COPY ./ ./
 RUN npm install
 
+EXPOSE 3000
 
 # start app
 CMD ["npm", "start"]

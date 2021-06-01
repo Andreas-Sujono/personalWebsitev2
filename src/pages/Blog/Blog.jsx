@@ -15,7 +15,7 @@ const mapArticle = {
 };
 
 function Blog() {
-  const [mediumMeta, setMediumMeta] = useState({});
+  // const [mediumMeta, setMediumMeta] = useState({});
   const [articles, setArticles] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -37,7 +37,7 @@ function Blog() {
       return item;
     });
 
-    setMediumMeta(feed);
+    // setMediumMeta(feed);
     setArticles(parsedItems);
     setIsLoading(false);
   };
