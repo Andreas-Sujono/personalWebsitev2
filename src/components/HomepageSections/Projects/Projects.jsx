@@ -11,7 +11,38 @@ const Projects = () => {
 
   return (
     <Container id="projects">
-      <h2>Projects</h2>
+      {/* <h2>Featured Projects</h2>
+      <hr />
+
+      <Card
+        modalData={{
+          image:
+            'https://res.cloudinary.com/dx6juznlw/image/upload/v1622657672/vegan-recipe-app/andreas-website/projects/breadcrumbs_g7vrfp.png',
+          alt: 'Breadcrumbs',
+          title: 'Breadcrumbs',
+          techStack: '',
+          description: ['Breadcrumbs'],
+          otherImage: [],
+        }}
+        changeModalData={() => null}
+        openModal={() => null}
+      />
+
+      <Card
+        modalData={{
+          image:
+            'https://res.cloudinary.com/dx6juznlw/image/upload/v1622657672/vegan-recipe-app/andreas-website/projects/codeMaster_z4root.png',
+          alt: 'CodeMaster',
+          title: 'CodeMaster',
+          techStack: '',
+          description: ['CodeMaster'],
+          otherImage: [],
+        }}
+        changeModalData={() => null}
+        openModal={() => null}
+      /> */}
+
+      <h2>Mini Projects</h2>
       <hr />
 
       <div className="content projects-row">
