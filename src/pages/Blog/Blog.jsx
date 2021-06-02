@@ -3,7 +3,6 @@ import axios from 'axios';
 import TopNav from 'components/TopNav';
 import BlogCard from 'components/BlogCard';
 import LoadingBar from 'react-dre/lib/LoadingBar';
-import logo from 'assets/Logo.png';
 import Footer from 'components/Footer';
 import { Container, BlogHeader } from './Styles';
 
@@ -44,8 +43,6 @@ function Blog() {
 
   return (
     <Container>
-      <img className="logo" src={logo} alt="andreas Logo" />
-
       <TopNav />
       <BlogHeader>
         <a href="https://andreassujono.medium.com/" target="__blank">

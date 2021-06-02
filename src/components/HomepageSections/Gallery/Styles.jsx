@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   width: 80%;
@@ -24,6 +25,18 @@ export const Container = styled.div`
     width: 70%;
     margin: auto;
   }
+
+  ${media.lessThan('md')`
+    >h2{
+      font-size: 32px;
+    }
+    > hr{
+      margin-bottom: 40px;
+    }
+    .content{
+       width: 90%;
+    }
+  `}
 `;
 
 export const GalleryRow = styled.div`

@@ -20,7 +20,7 @@ export const Container = styled.div`
       cursor: pointer;
       position: absolute;
       right: 24px;
-      top: 15px;
+      top: 24px;
       width: 24px;
       height: 24px;
     }
@@ -28,7 +28,7 @@ export const Container = styled.div`
 
   ${media.lessThan('md')`
   .dropdown-container {
-    height: 66px;
+    height: 70px;
     >ul.inline-ul{display: none;}
     ul li{margin-right: 0;}
     display: block;

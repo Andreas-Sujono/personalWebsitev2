@@ -1,14 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  > .logo {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 20;
-    width: 50px;
-  }
-
   .blog-content {
     width: 92%;
     margin: auto;

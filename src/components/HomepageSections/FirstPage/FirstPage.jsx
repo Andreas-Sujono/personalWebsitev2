@@ -3,7 +3,6 @@ import { Typewriting } from 'react-typewriting';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
 import resumePDF from 'assets/Andreas_Resume.pdf';
-import logo from 'assets/Logo.png';
 import SocialMedia from './SocialMedia';
 // import Sphere3D from './Sphere3D';
 import ParticlesBg from './ParticlesBg';
@@ -12,7 +11,6 @@ import { Container, Content } from './Styles';
 const FirstPage = () => {
   return (
     <Container id="firstPage">
-      <img className="andreas-logo" src={logo} alt="andreas Logo" />
       <Content>
         <div className="title-container">
           <LightSpeed>

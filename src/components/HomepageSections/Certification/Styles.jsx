@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   padding: 50px 20px;
@@ -31,4 +32,16 @@ export const Container = styled.div`
   i {
     color: black;
   }
+
+  ${media.lessThan('md')`
+  min-height: 340px;
+  width: 100%;
+
+    >h2{
+      font-size: 32px;
+    }
+    > hr{
+      margin-bottom: 40px;
+    }
+  `}
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   width: 100%;
@@ -22,4 +23,10 @@ export const Container = styled.div`
     vertical-align: middle;
     padding-top: 20px;
   }
+
+  ${media.lessThan('md')`
+    height: 240px;
+    padding-top: 60px;
+    .text{font-size: 24px;}
+  `}
 `;

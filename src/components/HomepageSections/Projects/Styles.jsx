@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   background-color: rgb(238, 237, 237);
@@ -30,4 +31,13 @@ export const Container = styled.div`
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
+  ${media.lessThan('md')`
+    >h2{
+      font-size: 32px;
+    }
+    > hr{
+      margin-bottom: 40px;
+    }
+  `}
 `;

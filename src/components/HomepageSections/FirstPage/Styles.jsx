@@ -1,18 +1,11 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   background-color: rgb(37, 41, 52);
   height: 100vh;
   width: 100%;
   position: relative;
-
-  > .andreas-logo {
-    position: fixed;
-    top: 10px;
-    left: 8%;
-    z-index: 20;
-    width: 50px;
-  }
 `;
 
 export const Content = styled.div`
@@ -59,6 +52,17 @@ export const Content = styled.div`
     background-color: rgb(5, 161, 167);
     border: 2px solid rgb(37, 41, 52);
   }
+
+  ${media.lessThan('md')`
+    > .title-container {
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+    }
+  `}
 `;
 
 export const CoolBackground = styled.div`

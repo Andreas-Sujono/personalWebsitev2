@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   min-height: 600px;
@@ -20,6 +21,15 @@ export const Container = styled.div`
     border: 2px double grey;
     margin-bottom: 80px;
   }
+
+  ${media.lessThan('md')`
+    >h2{
+      font-size: 32px;
+    }
+    > hr{
+      margin-bottom: 40px;
+    }
+  `}
 `;
 
 export const Row = styled.div`
@@ -51,17 +61,38 @@ export const Row = styled.div`
       margin-bottom: 20px;
     }
   }
+
+  ${media.lessThan('md')`
+    .left-content {
+      img {
+        width: 220px;
+      }
+      h4 {
+        margin-top: 24px;
+      }
+    }
+    .right-content {
+      width: 100%;
+      min-width: 320px;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: -10px;
+    }
+  `}
 `;
 
 export const SkillBar = styled.div`
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  margin: auto;
   margin-bottom: 20px;
+  height: 24px;
+
   .skill-title {
     float: left;
-    width: 100px;
-    min-height: 20px;
+    width: 20%;
+    max-width: 120px;
+    height: 100%;
     background-color: rgba(65, 199, 204, 0.8);
     color: white;
     text-align: center;
@@ -70,7 +101,7 @@ export const SkillBar = styled.div`
     width: 60%;
     float: left;
     background-color: lightgrey;
-    height: 24px;
+    height: 100%;
     padding: 0;
     border-radius: 0;
     .progress-bar {
@@ -79,12 +110,26 @@ export const SkillBar = styled.div`
     }
   }
   .skill-proficiency {
+    width: 20%;
     background-color: grey;
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     padding: 1px;
+    height: 100%;
   }
+
+  ${media.lessThan('md')`
+    .skill-title {
+      width: 70px;
+      font-size: 12px;
+      padding: 3px;
+    }
+    .skill-proficiency {
+      font-size: 12px;
+      padding: 3px;
+    }    
+  `}
 `;
 
 export const SkillImagesContainer = styled.div`
@@ -119,4 +164,13 @@ export const SkillImagesContainer = styled.div`
   h4 {
     font-weight: bold;
   }
+
+  ${media.lessThan('md')`
+    margin-top: 24px;
+    h4{font-size: 20px;}
+    img {
+      max-width: 140px;
+      margin-top: 30px;
+    }
+  `}
 `;

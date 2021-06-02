@@ -9,7 +9,7 @@ import MiddleContent from 'components/HomepageSections/MiddleContent';
 import Certification from 'components/HomepageSections/Certification';
 import { AdsModal } from 'components/Ads';
 import blogAdsImage from 'assets/blog/blog-ads.png';
-import './medResponsive.scss';
+import { Container } from './Styles';
 
 // id need to be updated for every new ads
 const adsContent = [
@@ -26,7 +26,7 @@ function Homepage() {
   const [isAdsOpen, setIsAdsOpen] = useState(true);
 
   return (
-    <div className="homepage">
+    <Container>
       <FirstPage />
       <TopNav />
       <About />
@@ -48,7 +48,7 @@ function Homepage() {
             id={item.id}
           />
         ))}
-    </div>
+    </Container>
   );
 }
 

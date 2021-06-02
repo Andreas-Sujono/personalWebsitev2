@@ -4,17 +4,17 @@ import MLDev from 'assets/MLDev.png';
 
 const skills = [
   {
-    name: 'HTML',
-    proficiency: 'Proficient',
-    value: 90,
-  },
-  {
-    name: 'CSS',
+    name: 'HTML, CSS',
     proficiency: 'Proficient',
     value: 90,
   },
   {
     name: 'Javascript',
+    proficiency: 'Proficient',
+    value: 80,
+  },
+  {
+    name: 'Typescript',
     proficiency: 'Proficient',
     value: 80,
   },
@@ -25,8 +25,13 @@ const skills = [
   },
   {
     name: 'Redux',
-    proficiency: 'Familiar',
-    value: 70,
+    proficiency: 'Proficient',
+    value: 80,
+  },
+  {
+    name: 'NodeJs',
+    proficiency: 'Proficient',
+    value: 80,
   },
   {
     name: 'Python',
@@ -39,12 +44,12 @@ const skills = [
     value: 70,
   },
   {
-    name: 'Data',
+    name: 'Docker',
     proficiency: 'Familiar',
     value: 60,
   },
   {
-    name: 'DevOps',
+    name: 'Kubenertes',
     proficiency: 'Familiar',
     value: 60,
   },
