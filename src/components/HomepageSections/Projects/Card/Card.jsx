@@ -1,49 +1,27 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
+import { Container } from './Styles';
 
-import './style.scss';
-
-const Card = (props) => {
-  const {
-    image,
-    alt,
-    title,
-    description,
-    techStack,
-    link,
-    otherImage,
-    sourceCode,
-    changeModalData,
-    setModal,
-  } = props;
+const Card = ({ modalData, changeModalData, openModal }) => {
   return (
-    <div className="card2">
+    <Container>
       <Zoom>
-        <img src={image} alt={alt} />
+        <img src={modalData.image} alt={modalData.alt} />
       </Zoom>
       <div className="imageDesc">
-        <h4>{title}</h4>
-        <div className="tectStack">{techStack}</div>
+        <h4>{modalData.title}</h4>
+        <div className="tectStack">{modalData.techStack}</div>
         <div
           className="learnMoreButton"
           onClick={() => {
-            changeModalData({
-              image,
-              alt,
-              title,
-              description,
-              techStack,
-              link,
-              otherImage,
-              sourceCode,
-            });
-            setModal();
+            changeModalData();
+            openModal();
           }}
         >
           Learn More
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

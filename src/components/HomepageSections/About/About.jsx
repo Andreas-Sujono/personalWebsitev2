@@ -1,23 +1,23 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-
 import andreasPhoto from 'assets/Andreas.jpg';
+import { Container, Row, SkillBar, SkillImagesContainer } from './Styles';
 import { skills, skillImages } from './utils';
-import './style.scss';
 
 const About = () => {
   return (
-    <div className="about container" id="about">
+    <Container id="about">
       <Flip top>
         <h2>About</h2>
         <hr />
       </Flip>
 
-      <div className="row">
-        <div className="leftContent col-lg-5 col- 10">
+      <Row className="row">
+        <div className="left-content col-lg-5 col- 10">
           <Zoom>
             <img src={andreasPhoto} alt="andreas" />
           </Zoom>
@@ -25,7 +25,7 @@ const About = () => {
             <h4>About Me</h4>
           </LightSpeed>
           <Fade>
-            <div className="aboutMeContent">
+            <div className="about-me-content">
               A sophomore in NTU studying Electrical and Electronic Engineering.
               Have a really great passion for developing innovative programs.
               Experienced in well-versed technology and writing code that are
@@ -36,12 +36,12 @@ const About = () => {
             </div>
           </Fade>
         </div>
-        <div className="rightContent col-lg-7 col-10">
+        <div className="right-content col-lg-7 col-10">
           <Fade left>
             <h4>Skills</h4>
-            {skills.map((item, idx) => (
-              <div className="skillIndividual" key={`${item.name}_${idx}`}>
-                <div className="skillTitle">{item.name}</div>
+            {skills.map((item) => (
+              <SkillBar key={item.name}>
+                <div className="skill-title">{item.name}</div>
                 <div className="progress">
                   <div
                     className="progress-bar progress-bar-animated"
@@ -54,16 +54,19 @@ const About = () => {
                     aria-valuemax="100"
                   />
                 </div>
-                <div className="skillProficiency">{item.proficiency}</div>
-              </div>
+                <div className="skill-proficiency">{item.proficiency}</div>
+              </SkillBar>
             ))}
           </Fade>
         </div>
-      </div>
+      </Row>
 
-      <div className="container skillImage row">
+      <SkillImagesContainer className="row">
         {skillImages.map((item, idx) => (
-          <div className="skillImageIndividual col" key={`${item.name}_${idx}`}>
+          <div
+            className="skill-image-individual col"
+            key={`${item.name}_${idx}`}
+          >
             <Zoom>
               <img src={item.image} alt="skill" />
               <h4>{item.title}</h4>
@@ -71,8 +74,8 @@ const About = () => {
             </Zoom>
           </div>
         ))}
-      </div>
-    </div>
+      </SkillImagesContainer>
+    </Container>
   );
 };
 

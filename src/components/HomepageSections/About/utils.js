@@ -52,19 +52,24 @@ const skills = [
 
 const skillImages = [
   {
+    image: webDev,
+    title: 'Frontend & Backend',
+    detail: 'React, Redux, Typescript, NodeJs, ExpressJs, Django',
+  },
+  // {
+  //   image: MLDev,
+  //   title: 'Data Science',
+  //   detail: 'Python, Pytorch, Numpy, Pandas, Matplotlib, Scikit learn',
+  // },
+  {
+    image: MLDev,
+    title: 'Devops',
+    detail: 'Docker, Kubernetes, Nginx',
+  },
+  {
     image: electroDev,
     title: 'Electronics',
     detail: 'C/C++ ,Arduino, LabView',
-  },
-  {
-    image: webDev,
-    title: 'Web Developments',
-    detail: 'React, Redux, Django, Flask',
-  },
-  {
-    image: MLDev,
-    title: 'Data Science',
-    detail: 'Python, Pytorch, Numpy, Pandas, Matplotlib, Scikit learn',
   },
 ];
 

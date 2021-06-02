@@ -59,7 +59,7 @@ const projectsData = [
   {
     image: projects_codeMaster,
     alt: 'Website CodeMaster',
-    title: 'Idealist',
+    title: 'codeMaster',
     techStack: 'React',
     description: [
       'codeMaster is an online programming course. There are different kind of tracks available such as front end track, back end track, and data science track',

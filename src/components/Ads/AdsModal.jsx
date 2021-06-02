@@ -48,7 +48,9 @@ function AdsModal({
   return (
     <Modal
       isOpen={isOpen}
-      onRequestClose={handleClose}
+      handleClose={() => {
+        setShowAds(false);
+      }}
       shouldCloseOnOverlayClick
       styles={{
         overlayStyle: {

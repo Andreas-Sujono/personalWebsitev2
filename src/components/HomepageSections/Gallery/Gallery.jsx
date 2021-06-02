@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
-import './style.scss';
 import galleryData from './utils';
+import { Container, GalleryRow } from './Styles';
 
 const Gallery = () => {
   const column = [1, 2, 3];
@@ -14,11 +14,11 @@ const Gallery = () => {
     );
 
   return (
-    <div className="gallery" id="gallery">
+    <Container id="gallery">
       <h2>Gallery</h2>
       <hr />
 
-      <div className="content galleryRow">
+      <GalleryRow>
         {column.map((_, idx1) => (
           <div className="galleryColumn" key={Math.random()}>
             {galleryChosen(idx1).map((item2) => (
@@ -26,8 +26,8 @@ const Gallery = () => {
             ))}
           </div>
         ))}
-      </div>
-    </div>
+      </GalleryRow>
+    </Container>
   );
 };
 

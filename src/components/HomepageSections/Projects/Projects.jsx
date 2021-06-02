@@ -1,60 +1,41 @@
-import React, { Component } from 'react';
+import React, { memo, useState } from 'react';
 import ProjectModal from 'components/ProjectModal';
 import Card from './Card';
-import './style.scss';
 import projectsData from './utils';
+import { Container } from './Styles';
 // import Zoom from 'react-reveal/Zoom';
 
-class Projects extends Component {
-  state = {
-    modal: false,
-    data: null,
-  };
+const Projects = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalData, setModalData] = useState(true);
 
-  setModal = () => {
-    this.setState({ modal: true });
-  };
+  return (
+    <Container id="projects">
+      <h2>Projects</h2>
+      <hr />
 
-  closeModal = () => {
-    this.setState({ modal: false });
-  };
-
-  changeModalData = (data) => {
-    this.setState({ data });
-  };
-
-  render() {
-    return (
-      <div className="projects" id="projects">
-        <h2>Projects</h2>
-        <hr />
-
-        <div className="content projectsRow">
-          {projectsData.map((item, idx) => (
-            <Card
-              image={item.image}
-              alt={item.alt}
-              title={item.title}
-              techStack={item.techStack}
-              description={item.description}
-              link={item.link ? item.link : null}
-              sourceCode={item.sourceCode ? item.sourceCode : null}
-              otherImage={item.otherImage}
-              changeModalData={this.changeModalData}
-              setModal={this.setModal}
-              key={`${item.title}_${idx}`}
-            />
-          ))}
-        </div>
-
-        <div className="modalContainer">
-          {this.state.modal && (
-            <ProjectModal {...this.state.data} closeModal={this.closeModal} />
-          )}
-        </div>
+      <div className="content projects-row">
+        {projectsData.map((item) => (
+          <Card
+            modalData={item}
+            changeModalData={() => setModalData(item)}
+            openModal={() => setModalOpen(true)}
+            key={item.title}
+          />
+        ))}
       </div>
-    );
-  }
-}
 
-export default Projects;
+      <div className="modalContainer">
+        {modalOpen && (
+          <ProjectModal
+            data={modalData}
+            isOpen={modalOpen}
+            closeModal={() => setModalOpen(false)}
+          />
+        )}
+      </div>
+    </Container>
+  );
+};
+
+export default memo(Projects);
