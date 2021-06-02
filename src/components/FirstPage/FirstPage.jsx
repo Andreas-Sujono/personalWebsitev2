@@ -5,7 +5,8 @@ import Fade from 'react-reveal/Fade';
 import resumePDF from 'assets/Andreas_Resume.pdf';
 import logo from 'assets/Logo.png';
 import SocialMedia from './SocialMedia';
-import Sphere3D from './Sphere3D';
+// import Sphere3D from './Sphere3D';
+import ParticlesBg from './ParticlesBg';
 import { Container, Content } from './Styles';
 
 const FirstPage = () => {
@@ -46,8 +47,8 @@ const FirstPage = () => {
         </Fade>
       </Content>
 
-      {/* <ParticlesBg /> */}
-      <Sphere3D />
+      <ParticlesBg />
+      {/* <Sphere3D /> */}
     </Container>
   );
 };

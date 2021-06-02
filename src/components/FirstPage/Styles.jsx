@@ -67,4 +67,9 @@ export const CoolBackground = styled.div`
   z-index: 2;
   position: absolute;
   top: 0;
+
+  > * {
+    width: 100%;
+    height: 100%;
+  }
 `;
