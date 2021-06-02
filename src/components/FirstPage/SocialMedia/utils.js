@@ -1,17 +1,14 @@
-// import linkedinLogo from 'assets/linkedin.png'
-// import githubLogo from 'assets/github.png'
+import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const socialMediaData = [
   {
-    // logo:linkedinLogo,
     title: 'Linkedin',
-    iconName: 'fab fa-linkedin-in',
+    Icon: AiOutlineGithub,
     link: 'https://www.linkedin.com/in/andreasSujono',
   },
   {
-    // logo:githubLogo,
     title: 'github',
-    iconName: 'fab fa-github',
+    Icon: AiFillLinkedin,
     link: 'https://www.github.com/Andreas-Sujono',
   },
 ];

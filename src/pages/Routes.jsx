@@ -1,6 +1,6 @@
 import React, { memo, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { FullPageLoadingBar } from 'react-dre';
+import { FullPageLoadingBar } from 'react-dre/lib/LoadingBar';
 import routes from './data';
 
 const Routes = () => {

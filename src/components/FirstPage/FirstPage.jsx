@@ -1,43 +1,19 @@
-import React from 'react';
-import Particles from 'react-particles-js';
+import React, { memo } from 'react';
 import { Typewriting } from 'react-typewriting';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
 import resumePDF from 'assets/Andreas_Resume.pdf';
 import logo from 'assets/Logo.png';
 import SocialMedia from './SocialMedia';
-import './style.scss';
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 250,
-      density: {
-        enable: true,
-        value_area: 1500,
-      },
-    },
-  },
-  interactivity: {
-    events: {
-      onhover: {
-        enable: true,
-        mode: 'repulse',
-      },
-    },
-  },
-  onclick: {
-    enable: true,
-    mode: 'push',
-  },
-};
+import Sphere3D from './Sphere3D';
+import { Container, Content } from './Styles';
 
 const FirstPage = () => {
   return (
-    <div id="firstPage">
-      <img className="logo" src={logo} alt="andreas Logo" />
-      <div className="firstPageContent">
-        <div className="title">
+    <Container id="firstPage">
+      <img className="andreas-logo" src={logo} alt="andreas Logo" />
+      <Content>
+        <div className="title-container">
           <LightSpeed>
             <h1>
               Hello, I am <span>Andreas Sujono</span>
@@ -47,10 +23,10 @@ const FirstPage = () => {
             I am
             <Typewriting
               strings={[
-                ' a Web Developer',
-                ' a Full Stack Developer',
-                ' a Student at NTU',
-                ' a Hard-Working person',
+                ' a Front end engineer',
+                ' a Full stack developer',
+                ' a Student at Nanyang Technological University (NTU)',
+                ' a Problem solver',
               ]}
               waitBeforeDeleteMs="3000"
             >
@@ -62,17 +38,18 @@ const FirstPage = () => {
         </div>
         <SocialMedia />
         <Fade>
-          <div className="downloadResume">
+          <div className="download-resume">
             <a href={resumePDF} target="_blank" rel="noopener noreferrer">
               Download Resume
             </a>
           </div>
         </Fade>
-      </div>
+      </Content>
 
-      <Particles className="particles" params={particlesOptions} />
-    </div>
+      {/* <ParticlesBg /> */}
+      <Sphere3D />
+    </Container>
   );
 };
 
-export default FirstPage;
+export default memo(FirstPage);

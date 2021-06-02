@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.scss';
+import { Container } from './Styles';
 
 const middleContent = () => {
   return (
-    <div className="middleContent">
+    <Container>
       <div className="text">
         Check more projects in my github&nbsp;
         <a
@@ -15,7 +15,7 @@ const middleContent = () => {
           Here
         </a>
       </div>
-    </div>
+    </Container>
   );
 };
 

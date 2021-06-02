@@ -1,23 +1,23 @@
 import React from 'react';
 import socialMediaData from './utils';
-import './style.scss';
+import { SocialContainer } from './Styles';
 
 const SocialMedia = () => {
   return (
-    <div className="socialMedia">
-      {socialMediaData.map((item, idx) => (
+    <SocialContainer>
+      {socialMediaData.map((item) => (
         <a
           href={item.link}
-          key={`${item.title}_${idx}`}
+          key={item.title}
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="socialMedia-icon">
-            <i className={item.iconName} />
+            <item.Icon />
           </div>
         </a>
       ))}
-    </div>
+    </SocialContainer>
   );
 };
 

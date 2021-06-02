@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState, useCallback } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Modal } from 'react-dre';
-import './style.scss';
+import Modal, { CloseButton } from 'react-dre/lib/Modal';
+import { AdsCard } from './Styles';
 
 function AdsModal({
   isOpen,
@@ -50,12 +50,27 @@ function AdsModal({
       isOpen={isOpen}
       onRequestClose={handleClose}
       shouldCloseOnOverlayClick
+      styles={{
+        overlayStyle: {
+          zIndex: 20,
+          background: 'rgba(255,255,255, 0.5)',
+        },
+        contentStyle: {
+          padding: 0,
+        },
+      }}
     >
-      <div className="ads-modal-content" onClick={() => history.push(link)}>
+      <AdsCard onClick={() => history.push(link)}>
+        <CloseButton
+          onClick={(e) => {
+            e.stopPropagation();
+            setShowAds(false);
+          }}
+        />
         <img src={image} alt="modal" />
         <h1>{title}</h1>
         <div className="description">{desc}</div>
-      </div>
+      </AdsCard>
     </Modal>
   );
 }

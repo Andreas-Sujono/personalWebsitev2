@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import TopNav from 'components/TopNav';
 import BlogCard from 'components/BlogCard';
-import LoadingBar from 'components/shared/LoadingBar';
+import LoadingBar from 'react-dre/lib/LoadingBar';
 import logo from 'assets/Logo.png';
 import Footer from 'components/Footer';
 import './style.scss';
@@ -58,20 +58,23 @@ function Blog() {
         </div>
       </a>
       <div className="blog-content row">
-        {isLoading && <LoadingBar />}
-        {articles.map((item) => (
-          <div className="col-lg-4 col-md-6 col-12" key={item.title}>
-            <BlogCard
-              title={item.title}
-              image=""
-              desc={item.content || item['content:encoded']}
-              link={item.link}
-              pubDate={item.pubDate.slice(0, 17)}
-              categories={item.categories}
-              githubCode={item.githubCode}
-            />
-          </div>
-        ))}
+        {isLoading && (
+          <LoadingBar type="spinningBubbles" color="#e31b6d" width={100} />
+        )}
+        {!isLoading &&
+          articles.map((item) => (
+            <div className="col-lg-4 col-md-6 col-12" key={item.title}>
+              <BlogCard
+                title={item.title}
+                image=""
+                desc={item.content || item['content:encoded']}
+                link={item.link}
+                pubDate={item.pubDate.slice(0, 17)}
+                categories={item.categories}
+                githubCode={item.githubCode}
+              />
+            </div>
+          ))}
       </div>
 
       <Footer />
