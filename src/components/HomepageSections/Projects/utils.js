@@ -1,40 +1,40 @@
-import projects_idealist from 'assets/projects/projects_idealist.png';
-import projects_idealist2 from 'assets/projects/projects_idealist2.png';
-import projects_idealist3 from 'assets/projects/projects_idealist3.png';
+// import projects_idealist from 'assets/projects/projects_idealist.png';
+// import projects_idealist2 from 'assets/projects/projects_idealist2.png';
+// import projects_idealist3 from 'assets/projects/projects_idealist3.png';
 
-import projects_codeMaster from 'assets/projects/projects_codeMaster.png';
-import projects_codeMaster2 from 'assets/projects/projects_codeMaster2.png';
-import projects_codeMaster3 from 'assets/projects/projects_codeMaster3.png';
+// import projects_codeMaster from 'assets/projects/projects_codeMaster.png';
+// import projects_codeMaster2 from 'assets/projects/projects_codeMaster2.png';
+// import projects_codeMaster3 from 'assets/projects/projects_codeMaster3.png';
 
-import projects_skinTech from 'assets/projects/projects_skinTech.png';
-import projects_skinTech2 from 'assets/projects/projects_skinTech2.png';
-import projects_skinTech3 from 'assets/projects/projects_skinTech3.png';
+// import projects_skinTech from 'assets/projects/projects_skinTech.png';
+// import projects_skinTech2 from 'assets/projects/projects_skinTech2.png';
+// import projects_skinTech3 from 'assets/projects/projects_skinTech3.png';
 
-import Projects_pytorch from 'assets/projects/projects_pytorch.png';
+// import Projects_pytorch from 'assets/projects/projects_pytorch.png';
 
-import projects_togo from 'assets/projects/projects_togo.png';
-import projects_togo2 from 'assets/projects/projects_togo2.png';
-import projects_togo3 from 'assets/projects/projects_togo3.png';
-import projects_togo4 from 'assets/projects/projects_togo4.png';
+// import projects_togo from 'assets/projects/projects_togo.png';
+// import projects_togo2 from 'assets/projects/projects_togo2.png';
+// import projects_togo3 from 'assets/projects/projects_togo3.png';
+// import projects_togo4 from 'assets/projects/projects_togo4.png';
 
-import projects_myblog from 'assets/projects/projects_myblog.png';
-import projects_myblog2 from 'assets/projects/projects_myblog2.png';
-import projects_myblog3 from 'assets/projects/projects_myblog3.png';
-import projects_myblog4 from 'assets/projects/projects_myblog4.png';
+// import projects_myblog from 'assets/projects/projects_myblog.png';
+// import projects_myblog2 from 'assets/projects/projects_myblog2.png';
+// import projects_myblog3 from 'assets/projects/projects_myblog3.png';
+// import projects_myblog4 from 'assets/projects/projects_myblog4.png';
 
-import projects_drumMachine from 'assets/projects/projects_drumMachine.png';
-import projects_markdownPreviewer from 'assets/projects/projects_markdownPreviewer.png';
-import projects_memeGenerator from 'assets/projects/projects_memeGenerator.png';
-import projects_pomodoroClock from 'assets/projects/projects_pomodoroClock.png';
-import projects_quoteGenerator from 'assets/projects/projects_quoteGenerator.png';
+// import projects_drumMachine from 'assets/projects/projects_drumMachine.png';
+// import projects_markdownPreviewer from 'assets/projects/projects_markdownPreviewer.png';
+// import projects_memeGenerator from 'assets/projects/projects_memeGenerator.png';
+// import projects_pomodoroClock from 'assets/projects/projects_pomodoroClock.png';
+// import projects_quoteGenerator from 'assets/projects/projects_quoteGenerator.png';
 
-import projects_reduxtagram from 'assets/projects/projects_reduxtagram.png';
-import projects_reduxtagram2 from 'assets/projects/projects_reduxtagram2.png';
-import projects_reduxtagram3 from 'assets/projects/projects_reduxtagram3.png';
+// import projects_reduxtagram from 'assets/projects/projects_reduxtagram.png';
+// import projects_reduxtagram2 from 'assets/projects/projects_reduxtagram2.png';
+// import projects_reduxtagram3 from 'assets/projects/projects_reduxtagram3.png';
 
-import projects_capture from 'assets/projects/projects_capture.png';
-import projects_capture2 from 'assets/projects/projects_capture2.png';
-import projects_capture3 from 'assets/projects/projects_capture3.png';
+// import projects_capture from 'assets/projects/projects_capture.png';
+// import projects_capture2 from 'assets/projects/projects_capture2.png';
+// import projects_capture3 from 'assets/projects/projects_capture3.png';
 
 /*
 {
@@ -57,7 +57,8 @@ import projects_capture3 from 'assets/projects/projects_capture3.png';
 
 const projectsData = [
   {
-    image: projects_codeMaster,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_codeMaster_oqbwcj.png',
     alt: 'Website CodeMaster',
     title: 'codeMaster',
     techStack: 'React',
@@ -68,17 +69,20 @@ const projectsData = [
     sourceCode: 'https://github.com/Andreas-Sujono/codeMaster',
     otherImage: [
       {
-        image: projects_codeMaster2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_codeMaster2_vlkjut.png',
         alt: 'Website CodeMaster',
       },
       {
-        image: projects_codeMaster3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_codeMaster3_kug94f.png',
         alt: 'Website CodeMaster',
       },
     ],
   },
   {
-    image: projects_idealist,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_idealist_rq2jjb.png',
     alt: 'Website Idealist',
     title: 'Idealist',
     techStack: 'React + NodeJs',
@@ -90,18 +94,21 @@ const projectsData = [
     sourceCode: 'https://github.com/Andreas-Sujono/ideaList',
     otherImage: [
       {
-        image: projects_idealist2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_idealist2_qmaoto.png',
         alt: 'idealist2',
       },
       {
-        image: projects_idealist3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_idealist3_h3jwvh.png',
         alt: 'idealist3',
       },
     ],
   },
 
   {
-    image: projects_skinTech,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_skinTech_rikbrd.png',
     alt: 'SkinTech website',
     title: 'SkinTech',
     techStack: 'Django + Tensorflow',
@@ -112,17 +119,20 @@ const projectsData = [
     sourceCode: 'https://github.com/Andreas-Sujono/skinTech',
     otherImage: [
       {
-        image: projects_skinTech2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_skinTech2_uculws.png',
         alt: 'skinTech2',
       },
       {
-        image: projects_skinTech3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_skinTech3_lqiupn.png',
         alt: 'skinTech3',
       },
     ],
   },
   {
-    image: Projects_pytorch,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_pytorch_th8ufb.png',
     alt: 'deep learning research',
     title: 'Deep Learning Research',
     techStack: 'Pytorch',
@@ -133,7 +143,8 @@ const projectsData = [
     otherImage: [],
   },
   {
-    image: projects_togo,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_togo_jvni5n.png',
     alt: 'ToGo mobile app',
     title: 'ToGo',
     techStack: 'ReactNative',
@@ -143,22 +154,26 @@ const projectsData = [
     sourceCode: 'https://github.com/Andreas-Sujono/TOGO-Travel-App',
     otherImage: [
       {
-        image: projects_togo2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_togo2_hwwc3p.png',
         alt: 'ToGo2',
       },
       {
-        image: projects_togo3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_togo3_xo9ysu.png',
         alt: 'ToGo3',
       },
       {
-        image: projects_togo4,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651371/vegan-recipe-app/andreas-website/projects/projects_togo4_qua9wl.png',
         alt: 'ToGo4',
       },
     ],
   },
 
   {
-    image: projects_myblog,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_myblog_txdzka.png',
     alt: 'MyBlog website',
     title: 'myBlog',
     techStack: 'Django',
@@ -166,21 +181,25 @@ const projectsData = [
     sourceCode: 'https://gitlab.com/AndreasSujono/myblog',
     otherImage: [
       {
-        image: projects_myblog2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_myblog2_hpmbxe.png',
         alt: 'MyBlog website',
       },
       {
-        image: projects_myblog3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_myblog3_qthsjt.png',
         alt: 'MyBlog website',
       },
       {
-        image: projects_myblog4,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_myblog4_kpszzy.png',
         alt: 'MyBlog website',
       },
     ],
   },
   {
-    image: projects_reduxtagram,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_reduxtagram_urom19.png',
     alt: 'reduxtagram',
     title: 'Reduxtagram',
     techStack: 'React + Redux',
@@ -192,17 +211,20 @@ const projectsData = [
     link: 'https://andreas-sujono.github.io/reduxtagram',
     otherImage: [
       {
-        image: projects_reduxtagram2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_reduxtagram2_dpfttw.png',
         alt: 'Reduxtagram',
       },
       {
-        image: projects_reduxtagram3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_reduxtagram3_vjkrvc.png',
         alt: 'Reduxtagram',
       },
     ],
   },
   {
-    image: projects_capture,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_capture_nqugnw.png',
     alt: 'projects_capture',
     title: 'Capture',
     techStack: 'React + Firebase',
@@ -211,18 +233,21 @@ const projectsData = [
     link: 'https://andreas-sujono.github.io/Capture/',
     otherImage: [
       {
-        image: projects_capture2,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_capture2_rrjzoh.png',
         alt: 'Capture',
       },
       {
-        image: projects_capture3,
+        image:
+          'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651368/vegan-recipe-app/andreas-website/projects/projects_capture3_cswzwb.png',
         alt: 'Capture',
       },
     ],
   },
 
   {
-    image: projects_markdownPreviewer,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_markdownPreviewer_ywdr6s.png',
     alt: 'MarkdownPreviewer website',
     title: 'MarkdownPreviewer',
     techStack: 'React',
@@ -230,7 +255,8 @@ const projectsData = [
     otherImage: [],
   },
   {
-    image: projects_pomodoroClock,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_pomodoroClock_bbiew0.png',
     alt: 'Pomodoro Clock',
     title: 'Pomodoro CLock',
     techStack: 'React',
@@ -240,7 +266,8 @@ const projectsData = [
     otherImage: [],
   },
   {
-    image: projects_drumMachine,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_drumMachine_dugyjy.png',
     alt: 'drum Machine',
     title: 'Drum Machine',
     techStack: 'React',
@@ -250,7 +277,8 @@ const projectsData = [
     otherImage: [],
   },
   {
-    image: projects_memeGenerator,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651369/vegan-recipe-app/andreas-website/projects/projects_memeGenerator_ohppwl.png',
     alt: 'Meme Generator',
     title: 'Meme Generator',
     techStack: 'React',
@@ -260,7 +288,8 @@ const projectsData = [
     otherImage: [],
   },
   {
-    image: projects_quoteGenerator,
+    image:
+      'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651370/vegan-recipe-app/andreas-website/projects/projects_quoteGenerator_jdcsdt.png',
     alt: 'Quote Generator',
     title: 'Quote Generator',
     techStack: 'React',
