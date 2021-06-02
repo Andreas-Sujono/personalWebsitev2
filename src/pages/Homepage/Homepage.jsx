@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import FirstPage from 'components/FirstPage';
+import React, { useState, memo } from 'react';
+import FirstPage from 'components/HomepageSections/FirstPage';
 import TopNav from 'components/TopNav';
-import About from 'components/About';
+import About from 'components/HomepageSections/About';
 import Footer from 'components/Footer';
-import Projects from 'components/Projects';
-import Gallery from 'components/Gallery';
-import MiddleContent from 'components/MiddleContent';
-import Certification from 'components/Certification';
+import Projects from 'components/HomepageSections/Projects';
+import Gallery from 'components/HomepageSections/Gallery';
+import MiddleContent from 'components/HomepageSections/MiddleContent';
+import Certification from 'components/HomepageSections/Certification';
 import { AdsModal } from 'components/Ads';
 import blogAdsImage from 'assets/blog/blog-ads.png';
 import './medResponsive.scss';
@@ -52,4 +52,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default memo(Homepage);

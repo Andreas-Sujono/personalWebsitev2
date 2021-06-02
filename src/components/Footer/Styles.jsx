@@ -1,11 +1,11 @@
 import styled from 'styled-components';
+import media from 'media';
 
 export const Container = styled.div`
   width: 100%;
   margin-top: 150px;
   color: white;
   background-color: rgb(37, 41, 52);
-  z-index: 20;
   position: relative;
 
   img.divider {
@@ -32,6 +32,10 @@ export const Row = styled.div`
   margin: auto;
   display: flex;
   padding-bottom: 40px;
+
+  ${media.lessThan('md')`
+    flex-direction: column;
+  `}
 `;
 
 export const Section = styled.div`
@@ -56,6 +60,10 @@ export const Section = styled.div`
       }
     }
   }
+
+  ${media.lessThan('md')`
+    width: 100%;
+  `}
 `;
 
 export const FirstSection = styled(Section)`
@@ -66,6 +74,14 @@ export const FirstSection = styled(Section)`
     position: absolute;
     right: 60px;
   }
+
+  ${media.lessThan('md')`
+    width: 100%;
+    img{
+      right: 40px;
+      width: 60px;
+    }
+  `}
 `;
 
 export const SecondSection = styled(Section)``;
@@ -89,4 +105,16 @@ export const ThirdSection = styled(Section)`
     border-radius: 10px;
     text-align: center;
   }
+
+  ${media.lessThan('md')`
+    
+  input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+  `}
 `;

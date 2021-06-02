@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, memo } from 'react';
 import axios from 'axios';
 import TopNav from 'components/TopNav';
 import BlogCard from 'components/BlogCard';
 import LoadingBar from 'react-dre/lib/LoadingBar';
 import logo from 'assets/Logo.png';
 import Footer from 'components/Footer';
-import './style.scss';
+import { Container, BlogHeader } from './Styles';
 
 const mapArticle = {
   'Mastering React ~ Best Practices 2021 (Part 1/3)': {
@@ -43,20 +43,21 @@ function Blog() {
   };
 
   return (
-    <div className="blog-page">
+    <Container>
       <img className="logo" src={logo} alt="andreas Logo" />
 
       <TopNav />
-      <a href="https://andreassujono.medium.com/" target="__blank">
-        <div className="blog-header">
+      <BlogHeader>
+        <a href="https://andreassujono.medium.com/" target="__blank">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png"
             className="medium-logo"
             alt="medium"
           />
           <p> Click here in case the blogs do not show up</p>
-        </div>
-      </a>
+        </a>
+      </BlogHeader>
+
       <div className="blog-content row">
         {isLoading && (
           <LoadingBar type="spinningBubbles" color="#e31b6d" width={100} />
@@ -78,8 +79,8 @@ function Blog() {
       </div>
 
       <Footer />
-    </div>
+    </Container>
   );
 }
 
-export default Blog;
+export default memo(Blog);

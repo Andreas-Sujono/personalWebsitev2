@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import queryString from 'query-string';
 import styled from 'styled-components';
 import ReactExample1 from './ReactExample1';
@@ -27,4 +27,4 @@ function BlogProject(props) {
   return <StyledContainer>Project Not found</StyledContainer>;
 }
 
-export default BlogProject;
+export default memo(BlogProject);

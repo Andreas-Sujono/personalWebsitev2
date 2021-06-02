@@ -26,7 +26,7 @@ function UserForm(props) {
   };
 
   return (
-    <div className="user-form" key={props.key}>
+    <div className="blog-reactExample1-user-form" key={props.key}>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="nameInput" className="form-label">

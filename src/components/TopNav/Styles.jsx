@@ -30,6 +30,7 @@ export const Container = styled.div`
   .dropdown-container {
     height: 66px;
     >ul.inline-ul{display: none;}
+    ul li{margin-right: 0;}
     display: block;
   }
   `}
