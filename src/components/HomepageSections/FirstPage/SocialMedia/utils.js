@@ -3,12 +3,12 @@ import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 const socialMediaData = [
   {
     title: 'Linkedin',
-    Icon: AiOutlineGithub,
+    Icon: AiFillLinkedin,
     link: 'https://www.linkedin.com/in/andreasSujono',
   },
   {
     title: 'github',
-    Icon: AiFillLinkedin,
+    Icon: AiOutlineGithub,
     link: 'https://www.github.com/Andreas-Sujono',
   },
 ];

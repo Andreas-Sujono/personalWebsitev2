@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   .blog-content {
-    width: 92%;
+    width: 80%;
     margin: auto;
     padding-top: 12px;
     min-height: calc(100vh - 600px);
@@ -14,6 +14,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 650px) {
     .blog-content {
+      width: 90%;
       padding-top: 0;
     }
   }
