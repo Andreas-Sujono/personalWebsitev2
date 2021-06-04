@@ -4,7 +4,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 import Fade from 'react-reveal/Fade';
 import resumePDF from 'assets/Andreas_Resume.pdf';
 import SocialMedia from './SocialMedia';
-import Sphere3D from './Sphere3D';
+// import Sphere3D from './Sphere3D';
 import ParticlesBg from './ParticlesBg';
 import { Container, Content } from './Styles';
 
@@ -46,7 +46,7 @@ const FirstPage = () => {
       </Content>
 
       {window.innerWidth < 768 && <ParticlesBg />}
-      {window.innerWidth > 768 && <Sphere3D />}
+      {window.innerWidth > 768 && <ParticlesBg />}
     </Container>
   );
 };

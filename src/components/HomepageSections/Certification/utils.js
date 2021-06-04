@@ -43,7 +43,7 @@ const data = [
   'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/org5_esynfz.png',
   'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/org6_peuk1o.png',
   'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/volunteer1_ysb6ig.png',
-  'https:/res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/volunteer2_r9hmls.png',
+  'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/volunteer2_r9hmls.png',
   'https://res.cloudinary.com/dx6juznlw/image/upload/v1622651048/vegan-recipe-app/andreas-website/certificates/volunteer3_dbu5sn.png',
 ];
 

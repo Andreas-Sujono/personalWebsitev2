@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const AdsCard = styled.div`
   background-color: white;
+  width: 80%;
   max-width: 400px;
   height: 420px;
   border-radius: 8px;
@@ -38,6 +39,7 @@ export const AdsCard = styled.div`
   }
 
   @media Screen and (max-width: 650px) {
+    width: 90%;
     > img {
       height: 50%;
     }
