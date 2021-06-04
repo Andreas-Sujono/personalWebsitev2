@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const AdsCard = styled.div`
   background-color: white;
-  width: 80%;
+  width: 100%;
+  min-width: 300px;
   max-width: 400px;
   height: 420px;
   border-radius: 8px;
@@ -39,9 +40,20 @@ export const AdsCard = styled.div`
   }
 
   @media Screen and (max-width: 650px) {
-    width: 90%;
+    height: 350px;
+
     > img {
-      height: 50%;
+      height: 60%;
+    }
+
+    > h1 {
+      font-size: 24px;
+      margin-top: 24px;
+      font-weight: bold;
+    }
+    > .description {
+      font-weight: 500;
+      line-height: 1.2em;
     }
   }
 `;

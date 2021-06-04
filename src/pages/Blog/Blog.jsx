@@ -67,7 +67,7 @@ function Blog() {
                 image=""
                 desc={item.content || item['content:encoded']}
                 link={item.link}
-                pubDate={item.pubDate.slice(0, 17)}
+                pubDate={item.pubDate.slice(0, 16)}
                 categories={item.categories}
                 githubCode={item.githubCode}
               />

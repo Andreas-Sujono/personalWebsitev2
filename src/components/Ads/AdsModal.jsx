@@ -32,10 +32,8 @@ function AdsModal({
 
     setShowAds(true);
     localStorage.removeItem('andreas-ads');
-    localStorage.setItem(
-      'andreas-ads',
-      JSON.stringify(adsIds?.length ? [...adsIds, id] : [id]),
-    );
+    const finalAdIds = [...new Set(adsIds?.length ? [...adsIds, id] : [id])]; // make sure ad id unique
+    localStorage.setItem('andreas-ads', JSON.stringify(finalAdIds));
     localStorage.setItem('last-visited', new Date().getTime());
   }, [id]);
 
