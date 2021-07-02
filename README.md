@@ -1,4 +1,4 @@
-![Andreas Sujono Banner Image](https://res.cloudinary.com/dx6juznlw/image/upload/v1625204867/andreassujono.com/andreassujono-overview_k0h3hj.png)
+![Andreas Sujono Banner Image](https://res.cloudinary.com/dx6juznlw/image/upload/v1625206413/andreassujono.com/andreassujono-overview_vljfpu.png)
 <!-- <h2 align='center'>Andreas Sujono</h2>
 <p align='center'><b>Student at Nanyang Technological University</b></p> -->
 
