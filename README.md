@@ -1,99 +1,48 @@
-Personal Website V2
-========
+![Andreas Sujono Banner Image](https://res.cloudinary.com/dx6juznlw/image/upload/v1625204867/andreassujono.com/andreassujono-overview_k0h3hj.png)
+<!-- <h2 align='center'>Andreas Sujono</h2>
+<p align='center'><b>Student at Nanyang Technological University</b></p> -->
 
-This is the updated Andreas Sujono's personal website, you can see it live at [https://andreassujono.com/](https://andreassujono.com/)
+<h2>Hi there! I am Andreas Sujono <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
 
-<img src='./Readme-asset/AndreasSujonoWebsite.png' alt="first page of Andreas Sujono's website" width='100%'>
-
-Dependencies
---------
-
-- react
-- react-particles-js
-- react-reveal
-- react-scroll
-- react-typewriting
-- react-responsive-carousel
-- node-sass
-- gh-pages (for deployment)
-
-Other library: Bootstrap, JQuery, Fontawesome (currently using cdn distribution)
-
-Installation
-------------
-
-Clone this repository, and run:
-
-    yarn install
-
-   or
-   
-    npm install
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/andreassujono)
+[![Website Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://andreassujono.com)
+[![Medium Badge](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-square&logo=medium&logoColor=white)](https://andreassujono.medium.com/)
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/andreass55)
 
 
-## Available Scripts
+### Glad to see you here! &nbsp; [![Visitor](https://visitor-badge.laobi.icu/badge?page_id=andreas-sujono)](https://github.com/andreas-sujono) [![GitHub followers](https://img.shields.io/github/followers/andreas-sujono.svg?style=social&label=Follow)](https://github.com/andreas-sujono?tab=followers)
 
-In the project directory, you can run:
+I am a full-stack software engineer with specialization in <strong>frontend development</strong>. I love programming, writing, music and basketball.
 
-### `yarn start`
+As a software engineer, I love to solve real problem by making things that change the world using my obssesive attention to detail
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img align="right" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="408" height="318" />
+  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Talking about Personal Stuffs:**
 
-### `yarn test`
+- 👨🏻‍💻 I’m currently studying at Nanyang Technological University (NTU);
+- 🚀 I’m currently learning Data Structures and Algorithms on leetcode;
+- 💬 Ask me about anything, I am happy to help;
+- 📝 I regulary write articles on [medium](https://andreassujono.medium.com);
+- 📫 How to reach me: andr0075@e.ntu.edu.sg;
+- 📝 [Resume](https://andreassujono.com/static/media/Andreas_Resume.9bd97b03.pdf).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<h2>👀 Stats</h2>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  <p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=andreas-sujono&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andreas-sujono&exclude_repo=KNN-Image-Classification&show_icons=true&hide_border=true&layout=compact&langs_count=8"/>
+</p>
+  
+  <p align="center">
+  <b><em>Overall GitHub Stats:</em></b> <br/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=andreas-sujono" alt="GitHub Stats" /> <br/><br/>
+  <b><em>My Programming activity (Last 7 days):</em></b> <br/>
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=andreas-sujono" alt="WakaTime" />
+  </p>
+ 
+</div>
