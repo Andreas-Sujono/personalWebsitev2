@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
 import { Markup } from 'interweave';

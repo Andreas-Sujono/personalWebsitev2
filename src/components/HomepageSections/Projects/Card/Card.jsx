@@ -2,7 +2,7 @@ import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import { Container } from './Styles';
 
-const Card = ({ modalData, changeModalData, openModal }) => {
+function Card({ modalData, changeModalData, openModal }) {
   return (
     <Container>
       <Zoom>
@@ -23,6 +23,6 @@ const Card = ({ modalData, changeModalData, openModal }) => {
       </div>
     </Container>
   );
-};
+}
 
 export default Card;

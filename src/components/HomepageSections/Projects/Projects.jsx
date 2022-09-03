@@ -5,7 +5,7 @@ import projectsData from './utils';
 import { Container } from './Styles';
 // import Zoom from 'react-reveal/Zoom';
 
-const Projects = () => {
+function Projects() {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalData, setModalData] = useState(true);
 
@@ -67,6 +67,6 @@ const Projects = () => {
       </div>
     </Container>
   );
-};
+}
 
 export default memo(Projects);

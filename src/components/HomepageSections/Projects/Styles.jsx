@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import media from 'media';
 
 export const Container = styled.div`
-  background-color: rgb(238, 237, 237);
+  background-color: rgb(207, 204, 204);
 
   min-height: 500px;
   padding: 50px 0 100px 0;

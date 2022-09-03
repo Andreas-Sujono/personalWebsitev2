@@ -8,7 +8,7 @@ import SocialMedia from './SocialMedia';
 import ParticlesBg from './ParticlesBg';
 import { Container, Content } from './Styles';
 
-const FirstPage = () => {
+function FirstPage() {
   return (
     <Container id="firstPage">
       <Content>
@@ -49,6 +49,6 @@ const FirstPage = () => {
       {window.innerWidth > 768 && <ParticlesBg />}
     </Container>
   );
-};
+}
 
 export default memo(FirstPage);

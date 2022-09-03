@@ -10,7 +10,7 @@ import {
   ThirdSection,
 } from './Styles';
 
-const Footer = () => {
+function Footer() {
   const [formData, setFormData] = useState({
     email: '',
     name: '',
@@ -154,6 +154,6 @@ const Footer = () => {
       </BottomFooter>
     </Container>
   );
-};
+}
 
 export default memo(Footer);

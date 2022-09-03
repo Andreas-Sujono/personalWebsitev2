@@ -24,7 +24,7 @@ const Container = styled.div`
   }
 `;
 
-const Card = (props) => {
+function Card(props) {
   const { image, alt } = props;
   return (
     <Container className="card">
@@ -33,6 +33,6 @@ const Card = (props) => {
       </Fade>
     </Container>
   );
-};
+}
 
 export default memo(Card);

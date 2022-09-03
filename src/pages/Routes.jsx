@@ -1,5 +1,5 @@
 import React, { memo, Suspense } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import { FullPageLoadingBar } from 'react-dre/lib/LoadingBar';
 import styled from 'styled-components';
 import media from 'media';
@@ -12,30 +12,36 @@ export const AndreasLogo = styled.img`
   left: 8%;
   z-index: 20;
   width: 50px;
+  cursor: pointer;
 
   ${media.lessThan('md')`
     left: 4%;
   `}
 `;
 
-const Routes = () => {
+function NavRoutes() {
+  const navigate = useNavigate();
   return (
     <>
-      <AndreasLogo src={logo} alt="andreas Logo" />
-      <Switch>
-        <Suspense fallback={<FullPageLoadingBar />}>
+      <AndreasLogo
+        src={logo}
+        alt="andreas Logo"
+        onClick={() => navigate('/')}
+      />
+      <Suspense fallback={<FullPageLoadingBar />}>
+        <Routes>
           {routes.map((route) => (
             <Route
               key={route.path}
               path={route.path}
               exact={route.exact}
-              component={route.component}
+              element={route.component}
             />
           ))}
-        </Suspense>
-      </Switch>
+        </Routes>
+      </Suspense>
     </>
   );
-};
+}
 
-export default memo(Routes);
+export default memo(NavRoutes);

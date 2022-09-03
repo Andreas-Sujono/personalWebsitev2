@@ -4,7 +4,7 @@ import { Modal, CloseButton } from 'react-dre/lib/Modal';
 import { ModalContent, Description } from './Styles';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const ProjectModal = ({ isOpen, closeModal, data }) => {
+function ProjectModal({ isOpen, closeModal, data }) {
   const {
     image,
     alt,
@@ -83,6 +83,6 @@ const ProjectModal = ({ isOpen, closeModal, data }) => {
       </ModalContent>
     </Modal>
   );
-};
+}
 
 export default memo(ProjectModal);

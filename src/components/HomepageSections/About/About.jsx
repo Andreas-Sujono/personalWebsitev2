@@ -8,7 +8,7 @@ import andreasPhoto from 'assets/Andreas.jpg';
 import { Container, Row, SkillBar, SkillImagesContainer } from './Styles';
 import { skills, skillImages } from './utils';
 
-const About = () => {
+function About() {
   return (
     <Container id="about">
       <Flip top>
@@ -26,13 +26,12 @@ const About = () => {
           </LightSpeed>
           <Fade>
             <div className="about-me-content">
-              A sophomore in NTU studying Electrical and Electronic Engineering.
-              Have a really great passion for developing innovative programs.
-              Experienced in well-versed technology and writing code that are
-              reliable and user-friendly. Have developed several web-based
-              applications using Python with Django framework and built the
-              front end using ReactJs to make a responsive single page
-              application.
+              Andreas is a passionate and tech enthusiast with 4 years of
+              working experience in 7 different companies with diverse
+              industries such as robotics, ed-tech, gaming, blockchain, data,
+              and cybersecurity company. He is well known for his website
+              development skills in both frontend and backend sides which follow
+              the best practice and clean architecture.
             </div>
           </Fade>
         </div>
@@ -77,6 +76,6 @@ const About = () => {
       </SkillImagesContainer>
     </Container>
   );
-};
+}
 
 export default About;

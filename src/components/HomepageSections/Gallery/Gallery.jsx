@@ -3,7 +3,7 @@ import Card from './Card';
 import galleryData from './utils';
 import { Container, GalleryRow } from './Styles';
 
-const Gallery = () => {
+function Gallery() {
   const column = [1, 2, 3];
   const { length } = galleryData;
   const columnLength = column.length;
@@ -29,6 +29,6 @@ const Gallery = () => {
       </GalleryRow>
     </Container>
   );
-};
+}
 
 export default Gallery;

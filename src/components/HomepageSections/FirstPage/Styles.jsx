@@ -68,7 +68,7 @@ export const Content = styled.div`
 export const CoolBackground = styled.div`
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   top: 0;
 

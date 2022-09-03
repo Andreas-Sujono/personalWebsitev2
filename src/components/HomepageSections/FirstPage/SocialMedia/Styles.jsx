@@ -7,7 +7,8 @@ export const SocialContainer = styled.div`
   > a {
     background-color: rgb(37, 41, 52);
     width: 40px;
-    height: 40px;
+    height: 38px;
+    border-radius: 6px;
     cursor: pointer;
     display: block;
     z-index: 10;

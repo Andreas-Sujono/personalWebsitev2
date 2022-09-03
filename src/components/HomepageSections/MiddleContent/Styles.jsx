@@ -10,6 +10,8 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
+  z-index: 2;
+  position: relative;
 
   .text {
     padding: 20px;

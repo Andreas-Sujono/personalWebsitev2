@@ -1,20 +1,12 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState, useCallback } from 'react';
-import { withRouter } from 'react-router-dom';
 import Modal, { CloseButton } from 'react-dre/lib/Modal';
+import { useNavigate } from 'react-router-dom';
 import { AdsCard } from './Styles';
 
-function AdsModal({
-  isOpen,
-  handleClose,
-  title,
-  desc,
-  image,
-  link,
-  history,
-  id,
-}) {
+function AdsModal({ isOpen, title, desc, image, link, id }) {
   const [showAds, setShowAds] = useState(false);
+  const navigate = useNavigate();
 
   const handleShowAds = useCallback(() => {
     let adsIds = localStorage.getItem('andreas-ads');
@@ -60,7 +52,7 @@ function AdsModal({
         },
       }}
     >
-      <AdsCard onClick={() => history.push(link)}>
+      <AdsCard onClick={() => navigate(link)}>
         <CloseButton
           onClick={(e) => {
             e.stopPropagation();
@@ -75,4 +67,4 @@ function AdsModal({
   );
 }
 
-export default withRouter(AdsModal);
+export default AdsModal;

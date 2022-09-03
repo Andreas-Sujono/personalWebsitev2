@@ -1,8 +1,9 @@
+/* eslint-disable prefer-destructuring */
 import React, { memo, useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { CoolBackground } from './Styles';
 
-const Sphere3D = () => {
+function Sphere3D() {
   const SCREEN_WIDTH = window.innerWidth;
   const SCREEN_HEIGHT = window.innerHeight;
 
@@ -49,6 +50,7 @@ const Sphere3D = () => {
 
     const geometry = createGeometry();
 
+    // eslint-disable-next-line no-plusplus
     for (let i = 0; i < parameters.length; ++i) {
       const p = parameters[i];
 
@@ -82,12 +84,12 @@ const Sphere3D = () => {
     // test geometry swapability
 
     setInterval(function () {
-      const geometry = createGeometry();
+      const _geometry = createGeometry();
 
       scene.traverse(function (object) {
         if (object.isLine) {
           object.geometry.dispose();
-          object.geometry = geometry;
+          object.geometry = _geometry;
         }
       });
     }, 1000);
@@ -173,6 +175,6 @@ const Sphere3D = () => {
   }
 
   return <CoolBackground ref={ref} />;
-};
+}
 
 export default memo(Sphere3D);

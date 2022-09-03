@@ -1,5 +1,5 @@
 import React, { useState, memo, useCallback } from 'react';
-import { Link as DiffPageLink, withRouter, matchPath } from 'react-router-dom';
+import { Link as DiffPageLink, matchPath, useLocation } from 'react-router-dom';
 import { Link as SamePageLink } from 'react-scroll';
 import { HamburgerIcon } from 'react-dre/lib/Icon';
 import { Container, InlineNav, ListItem, DropdownNav } from './Styles';
@@ -19,12 +19,13 @@ const navList = [
   { title: 'Blog', diffPageLink: true, highlighted: true, path: '/blog' },
 ];
 
-const TopNav = ({ location }) => {
+function TopNav() {
   const [isDropdownExpand, setIsDropdownExpand] = useState(false);
+  const location = useLocation();
 
   const isInSamePage = useCallback(
     (path) => {
-      return matchPath(path, { path: location.pathname, exact: true });
+      return matchPath({ path }, location.pathname);
     },
     [location.pathname],
   );
@@ -71,6 +72,6 @@ const TopNav = ({ location }) => {
       </div>
     </Container>
   );
-};
+}
 
-export default memo(withRouter(TopNav));
+export default memo(TopNav);

@@ -2,7 +2,7 @@ import React from 'react';
 import socialMediaData from './utils';
 import { SocialContainer } from './Styles';
 
-const SocialMedia = () => {
+function SocialMedia() {
   return (
     <SocialContainer>
       {socialMediaData.map((item) => (
@@ -19,6 +19,6 @@ const SocialMedia = () => {
       ))}
     </SocialContainer>
   );
-};
+}
 
 export default SocialMedia;
